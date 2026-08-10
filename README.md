@@ -1,7 +1,9 @@
 # 🥂 Buffet Sonia Bittencourt — Especialistas em Casamentos de Luxo
 
 <p align="center">
-  <img src="assets/image1.png" alt="Buffet Sonia Bittencourt" width="220">
+  <span style="background-color: #050607; display: inline-block; padding: 20px 40px; border-radius: 12px; border: 1px solid rgba(226, 211, 196, 0.2);">
+    <img src="assets/image1.png" alt="Buffet Sonia Bittencourt" width="220" style="display: block;">
+  </span>
 </p>
 
 <p align="center">
