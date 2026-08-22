@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BUFFET SONIA BITTENCOURT | Bailes de 15 Anos & Debutantes Inesquecíveis</title>
+    <title>BUFFET SONIA BITTENCOURT | Bailes de 15 Anos & Debutantes de Luxo</title>
     <meta name="description" content="A festa de 15 anos dos sonhos em Cuiabá. Balada moderna, gastronomia jovem refinada, som, iluminação cênica e momentos mágicos para a debutante.">
 
     <!-- Fonts -->
@@ -62,6 +62,9 @@
         .cinematic-img { filter: brightness(0.9) contrast(1.05); transition: all 0.6s ease; }
         .cinematic-img:hover { filter: brightness(1.02) scale(1.04); }
 
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
         ::-webkit-scrollbar { width: 8px; }
         ::-webkit-scrollbar-track { background: #050607; }
         ::-webkit-scrollbar-thumb { background: #3B483B; border-radius: 4px; }
@@ -86,7 +89,7 @@
                 <a href="casamentos.html" class="hover:text-brand-nude transition-colors">Casamentos</a>
                 <a href="15-anos.html" class="text-brand-nude border-b border-brand-nude pb-1 font-semibold">15 Anos</a>
                 <a href="corporativo.html" class="hover:text-brand-nude transition-colors">Corporativo</a>
-                <a href="kids.html" class="hover:text-brand-nude transition-colors">Sonia Kids</a>
+                <a href="kids.html" class="hover:text-brand-nude transition-colors">Kids</a>
             </nav>
 
             <div class="flex items-center space-x-4">
@@ -97,98 +100,305 @@
         </div>
     </header>
 
-    <!-- HERO 15 ANOS -->
+    <!-- TELA 1: HERO -->
     <section class="relative min-h-screen w-full flex items-center pt-36 pb-24 overflow-hidden bg-brand-black">
         <div class="absolute inset-0 z-0">
             <img src="assets/image34.jpg" alt="Festa de 15 Anos Buffet Sonia Bittencourt" class="w-full h-full object-cover cinematic-img opacity-45">
-            <div class="absolute inset-0 bg-gradient-to-r from-brand-black via-brand-black/85 to-brand-black/50"></div>
+            <div class="absolute inset-0 bg-gradient-to-r from-brand-black via-brand-black/80 to-brand-black/50"></div>
             <div class="absolute inset-0 bg-gradient-to-b from-brand-black/80 via-transparent to-brand-black"></div>
         </div>
 
         <div class="container relative z-10 px-6 lg:px-12 mx-auto max-w-7xl">
-            <div class="max-w-4xl mx-auto text-center space-y-6 fade-up">
-                <span class="text-xs uppercase tracking-[0.3em] text-brand-nude font-medium block">
-                    BAILES DE DEBUTANTES DE ALTO PADRÃO EM CUIABÁ
-                </span>
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-6 fade-up">
+                <!-- COLUNA ESQUERDA: NARRATIVA HERO -->
+                <div class="lg:col-span-7 space-y-6 text-left">
+                    <span class="text-xs uppercase tracking-[0.2em] text-brand-nude font-medium block">
+                        Organizar a festa de 15 anos deve ser inesquecível, não estressante.
+                    </span>
 
-                <h1 class="font-serif text-4xl sm:text-6xl lg:text-7xl font-normal leading-[1.12] text-brand-perola">
-                    A festa dos 15 anos merece uma noite <i class="italic text-brand-nude font-serif">mágica e espetacular.</i>
-                </h1>
+                    <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-normal leading-[1.12] text-brand-perola">
+                        A festa de 15 anos da sua filha merece uma noite <i class="italic text-brand-nude font-serif">simplesmente espetacular.</i>
+                    </h1>
 
-                <p class="text-brand-platina font-light text-base md:text-xl max-w-3xl mx-auto leading-relaxed">
-                    Combinação perfeita entre valsa emocionante, balada com DJ cênico, coquetelaria moderna e gastronomia aprovada por jovens e adultos.
+                    <div class="glass-editorial p-6 rounded-3xl border-l-4 border-l-brand-nude">
+                        <p class="text-brand-perola font-light text-base md:text-lg leading-relaxed">
+                            Há mais de 30 anos, o Buffet Sonia Bittencourt cuida da gastronomia, da iluminação cênica à estrutura completa, para que pais e debutantes vivam esse sonho com absoluta leveza.
+                        </p>
+                    </div>
+
+                    <div class="space-y-4 text-brand-platina font-light text-sm md:text-base leading-relaxed">
+                        <p>Da valsa emocionante com os pais até a balada com DJ até de manhã, nossa equipe garante uma celebração perfeita.</p>
+                    </div>
+
+                    <div class="pt-2">
+                        <a href="https://wa.me/5565999847498?text=Olá!%20Gostaria%20de%20consultar%20disponibilidade%20para%2015%20anos." target="_blank" class="px-10 py-4 bg-brand-perola text-brand-black font-semibold text-xs md:text-sm tracking-widest uppercase rounded-full hover:bg-brand-nude transition-all shadow-2xl inline-block text-center hover:scale-105">
+                            Consultar Disponibilidade ➔
+                        </a>
+                    </div>
+                </div>
+
+                <!-- COLUNA DIREITA: IMAGEM / VÍDEO DESTACADO DESKTOP -->
+                <div class="lg:col-span-5 hidden lg:block">
+                    <div class="w-full h-80 md:h-[480px] rounded-3xl overflow-hidden glass-editorial relative border border-white/20 group shadow-2xl">
+                        <img src="assets/image34.jpg" alt="Pista de Dança 15 Anos" class="w-full h-full object-cover cinematic-img">
+                        <div class="absolute inset-0 bg-black/30 flex flex-col items-center justify-end p-6">
+                            <div class="flex items-center space-x-2 bg-brand-black/70 backdrop-blur-md px-4 py-2 rounded-full border border-white/10">
+                                <span class="w-2 h-2 rounded-full bg-pink-500 animate-ping"></span>
+                                <span class="text-[11px] tracking-[0.2em] uppercase font-semibold text-brand-nude">Estrutura & Balada Cênica</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TELA 2: DORES & PREOCUPAÇÕES -->
+    <section class="py-24 relative border-t border-subtle bg-brand-dark">
+        <div class="container relative z-10 mx-auto px-6 max-w-5xl text-center">
+            <div class="fade-up mb-12 max-w-3xl mx-auto">
+                <span class="text-xs uppercase tracking-[0.25em] text-brand-nude font-medium block mb-3">PLANEJAMENTO TRANQUILO PARA OS PAIS</span>
+                <p class="text-brand-perola font-serif text-2xl md:text-3xl font-normal leading-relaxed italic">
+                    Ao planejar a festa de 15 anos, surgem dúvidas importantes sobre como agradar jovens e adultos:
                 </p>
+            </div>
 
-                <div class="pt-6">
-                    <a href="https://wa.me/5565999847498?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20festa%20de%2015%20anos." target="_blank" class="px-10 py-4 bg-brand-perola text-brand-black font-semibold text-xs md:text-sm tracking-widest uppercase rounded-full hover:bg-brand-nude transition-all shadow-2xl inline-block hover:scale-105">
-                        Consultar Datas para 15 Anos ➔
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16 fade-up text-left">
+                <div class="glass-editorial p-7 rounded-3xl flex items-center space-x-5">
+                    <span class="text-brand-nude font-serif text-3xl font-bold">01</span>
+                    <p class="text-brand-platina font-light text-sm md:text-base">Como agradar o paladar dos jovens e dos convidados adultos ao mesmo tempo?</p>
+                </div>
+                <div class="glass-editorial p-7 rounded-3xl flex items-center space-x-5">
+                    <span class="text-brand-nude font-serif text-3xl font-bold">02</span>
+                    <p class="text-brand-platina font-light text-sm md:text-base">Como garantir que o cronograma da valsa e das homenagens flua sem atrasos?</p>
+                </div>
+                <div class="glass-editorial p-7 rounded-3xl flex items-center space-x-5">
+                    <span class="text-brand-nude font-serif text-3xl font-bold">03</span>
+                    <p class="text-brand-platina font-light text-sm md:text-base">Como proporcionar uma balada inesquecível com segurança total no ambiente?</p>
+                </div>
+                <div class="glass-editorial p-7 rounded-3xl flex items-center space-x-5">
+                    <span class="text-brand-nude font-serif text-3xl font-bold">04</span>
+                    <p class="text-brand-platina font-light text-sm md:text-base">Quem coordena os imprevistos da festa para que os pais apenas curtam a noite?</p>
+                </div>
+            </div>
+
+            <div class="glass-editorial p-10 md:p-16 rounded-3xl fade-up border border-brand-perola/20 max-w-4xl mx-auto shadow-2xl text-left">
+                <span class="text-xs uppercase tracking-widest text-brand-platina font-light block mb-3 text-center">E a maior certeza de todas:</span>
+                <h3 class="font-serif text-3xl md:text-5xl font-normal text-brand-perola italic mb-8 text-center">
+                    A debutante merece ser a grande estrela da noite.
+                </h3>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-brand-platina font-light text-sm leading-relaxed mb-10 border-t border-subtle pt-8">
+                    <div>
+                        <p class="text-brand-nude font-semibold mb-2 text-base">Tradição & Modernidade</p>
+                        <p>Harmonia perfeita entre a cerimônia emocionante dos 15 anos e o agito contemporâneo da pista de dança.</p>
+                    </div>
+                    <div>
+                        <p class="text-brand-nude font-semibold mb-2 text-base">Gastronomia Dual</p>
+                        <p>Jantar nobre e elegante para os familiares combinados com finger foods, snacks e milkshakes para a pista.</p>
+                    </div>
+                    <div>
+                        <p class="text-brand-nude font-semibold mb-2 text-base">Segurança Absoluta</p>
+                        <p>Recepção monitorada, controle de entrada e gerentes de equipe acompanhando a festa do início ao fim.</p>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <a href="#proposta-form" class="inline-block px-10 py-4 border border-brand-perola/40 text-brand-perola font-medium text-xs md:text-sm tracking-widest uppercase rounded-full hover:bg-brand-perola hover:text-brand-black transition-all shadow-xl">
+                        Quero saber como funciona ➔
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- DESTAQUES 15 ANOS -->
-    <section class="py-24 bg-brand-dark border-t border-subtle">
+    <!-- TELA 3: SONIA BITTENCOURT 15 ANOS -->
+    <section class="py-24 bg-brand-black relative">
         <div class="container mx-auto px-6 max-w-6xl">
-            <div class="text-center fade-up mb-16 max-w-3xl mx-auto">
-                <span class="text-xs uppercase tracking-[0.25em] text-brand-nude font-semibold block mb-3">EXPERIÊNCIA EXCLUSIVA PARA DEBUTANTES</span>
-                <h2 class="font-serif text-4xl md:text-5xl font-normal text-brand-perola mb-6">
-                    Tudo preparado para a noite dos sonhos da debutante
+            <div class="text-center fade-up mb-16">
+                <span class="text-xs uppercase tracking-[0.25em] text-brand-platina font-light block mb-3">BUFFET SONIA BITTENCOURT</span>
+                <h2 class="font-serif text-4xl md:text-6xl font-normal text-brand-perola italic">
+                    Muito mais do que um buffet. Uma celebração inesquecível.
                 </h2>
-                <p class="text-brand-platina font-light text-sm md:text-base leading-relaxed">
-                    A celebração dos 15 anos exige a harmonia perfeita entre o charme da recepção em família e o ápice da balada jovem. Cuidamos de cada detalhe com a maestria de quem realiza festas memoráveis há mais de 30 anos em Cuiabá.
-                </p>
             </div>
 
-            <!-- CARDS DE ESTRUTURA E DIFERENCIAIS -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 fade-up mb-20">
-                <div class="glass-editorial p-8 rounded-3xl space-y-4">
-                    <div class="w-12 h-12 rounded-2xl bg-white/[0.04] border border-brand-nude/30 flex items-center justify-center text-brand-nude font-serif text-xl font-bold">01</div>
-                    <h3 class="font-serif text-2xl font-normal text-brand-perola">Balada & Iluminação Cênica</h3>
-                    <p class="text-brand-platina text-xs font-light leading-relaxed">Pista de dança equipada com robôs de luz, efeitos visuais, fumaça cênica, estrutura de som de altíssima fidelidade e cabine VIP para o DJ animar a noite toda.</p>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+                <div class="space-y-6 text-brand-platina font-light text-sm md:text-base leading-relaxed fade-up">
+                    <div class="glass-editorial p-7 rounded-3xl">
+                        <p class="text-brand-perola font-semibold text-lg mb-2">A Estrela da Noite</p>
+                        <p>O baile de 15 anos é um marco na vida da debutante e da sua família. Nosso objetivo é garantir que a aniversariante aproveite cada segundo radiante e sem preocupações.</p>
+                    </div>
+                    <div class="glass-editorial p-7 rounded-3xl">
+                        <p class="text-brand-perola font-semibold text-lg mb-2">Bastidores Impecáveis</p>
+                        <p>Enquanto a pista de dança ferve com o DJ e os convidados se encantam com o jantar, nossa equipe coordenada conduz a cronologia perfeita do evento.</p>
+                    </div>
+                    <div class="p-7 border-l-4 border-l-brand-nude bg-white/[0.02] rounded-r-3xl">
+                        <p class="font-serif italic text-brand-nude text-xl">Há mais de 30 anos transformando festas de 15 anos em acontecimentos marcantes em Cuiabá.</p>
+                    </div>
                 </div>
-                <div class="glass-editorial p-8 rounded-3xl space-y-4">
-                    <div class="w-12 h-12 rounded-2xl bg-white/[0.04] border border-brand-nude/30 flex items-center justify-center text-brand-nude font-serif text-xl font-bold">02</div>
-                    <h3 class="font-serif text-2xl font-normal text-brand-perola">Menus Teens & Sofisticados</h3>
-                    <p class="text-brand-platina text-xs font-light leading-relaxed">Estação de finger foods contemporâneos, mini hambúrgueres gourmet, milkshakes e coxurinhas na pista de dança, harmonizados com jantar refinado completo para os convidados adultos.</p>
-                </div>
-                <div class="glass-editorial p-8 rounded-3xl space-y-4">
-                    <div class="w-12 h-12 rounded-2xl bg-white/[0.04] border border-brand-nude/30 flex items-center justify-center text-brand-nude font-serif text-xl font-bold">03</div>
-                    <h3 class="font-serif text-2xl font-normal text-brand-perola">Camarim VIP da Debutante</h3>
-                    <p class="text-brand-platina text-xs font-light leading-relaxed">Suíte privativa com camarim iluminado, espelho de corpo inteiro para troca de vestidos (recepção, valsa e balada), retoque de maquiagem e espaço de descanso com os pais.</p>
+
+                <div class="fade-up relative">
+                    <div class="rounded-3xl overflow-hidden p-2 border-2 border-brand-nude/40 bg-gradient-to-tr from-brand-nude/20 via-transparent to-brand-perola/30 shadow-2xl">
+                        <img src="assets/image70.jpg" alt="Gastronomia Sonia Bittencourt" class="w-full h-[500px] object-cover cinematic-img rounded-2xl">
+                    </div>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <!-- BLOCO EM DESTAQUE SOBRE O CRONOGRAMA -->
-            <div class="glass-editorial p-10 md:p-14 rounded-3xl border border-brand-nude/30 fade-up space-y-8 max-w-4xl mx-auto shadow-2xl">
-                <div class="text-center space-y-3">
-                    <span class="text-xs uppercase tracking-[0.2em] text-brand-nude font-medium">JORNADA DA NOITE MÁGICA</span>
-                    <h3 class="font-serif text-3xl md:text-4xl font-normal text-brand-perola">Uma cronologia impecável do início ao fim</h3>
+    <!-- TELA 4: TUDO EM UM SÓ LUGAR -->
+    <section class="py-24 relative border-t border-subtle bg-brand-dark">
+        <div class="container relative z-10 mx-auto px-6 max-w-6xl text-center">
+            <div class="fade-up mb-16 max-w-4xl mx-auto">
+                <h2 class="font-serif text-5xl md:text-7xl font-normal text-brand-perola mb-8 leading-tight tracking-tight">
+                    Tudo o que a festa de 15 anos precisa, <span class="italic text-brand-nude block mt-2">em um só lugar.</span>
+                </h2>
+            </div>
+
+            <!-- BLOCOS DE SERVIÇOS 15 ANOS -->
+            <div class="mb-16 fade-up">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+                    <div class="glass-editorial rounded-3xl overflow-hidden flex flex-col justify-between group">
+                        <div class="h-48 overflow-hidden relative">
+                            <img src="assets/image70.jpg" alt="Gastronomia Dual" class="w-full h-full object-cover cinematic-img">
+                        </div>
+                        <div class="p-8">
+                            <span class="text-brand-nude text-xs uppercase tracking-widest font-semibold mb-2 block">Gastronomia Dual</span>
+                            <h4 class="font-serif text-2xl font-normal text-brand-perola mb-3">Jantar & Finger Foods</h4>
+                            <p class="text-brand-platina text-sm font-light leading-relaxed">Menu nobre e requintado para os adultos combinado com hambúrgueres artesanais, coquetéis sem álcool e mini churros na pista.</p>
+                        </div>
+                    </div>
+
+                    <div class="glass-editorial rounded-3xl overflow-hidden flex flex-col justify-between group">
+                        <div class="h-48 overflow-hidden relative">
+                            <img src="assets/image34.jpg" alt="Pista de Dança Cênica" class="w-full h-full object-cover cinematic-img">
+                        </div>
+                        <div class="p-8">
+                            <span class="text-brand-nude text-xs uppercase tracking-widest font-semibold mb-2 block">Balada Cênica</span>
+                            <h4 class="font-serif text-2xl font-normal text-brand-perola mb-3">Pista com Iluminação Cênica</h4>
+                            <p class="text-brand-platina text-sm font-light leading-relaxed">Sonorização moderna, fumaça cênica, luzes de robôs e espaço completo para DJ animar a pista de dança.</p>
+                        </div>
+                    </div>
+
+                    <div class="glass-editorial rounded-3xl overflow-hidden flex flex-col justify-between group">
+                        <div class="h-48 overflow-hidden relative">
+                            <img src="assets/image71.jpg" alt="Estrutura Completa" class="w-full h-full object-cover cinematic-img">
+                        </div>
+                        <div class="p-8">
+                            <span class="text-brand-nude text-xs uppercase tracking-widest font-semibold mb-2 block">Estrutura & Camarim VIP</span>
+                            <h4 class="font-serif text-2xl font-normal text-brand-perola mb-3">Suíte da Debutante</h4>
+                            <p class="text-brand-platina text-sm font-light leading-relaxed">Salão com ar-condicionado central, gerador próprio e camarim exclusivo para troca de vestidos da debutante.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-left border-t border-subtle pt-8 text-xs text-brand-platina leading-relaxed font-light">
-                    <div class="space-y-2">
-                        <span class="text-brand-nude font-serif text-xl block">1. Recepção</span>
-                        <p>Boas-vindas calorosas com coquetel de entrada, música ambiente suave e espaço temático para fotos da debutante com a família e amigos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TELA 5: CADA DETALHE PENSADO -->
+    <section class="py-24 bg-brand-black">
+        <div class="container mx-auto px-6 max-w-6xl text-center">
+            <div class="glass-editorial p-10 md:p-16 rounded-3xl text-left fade-up space-y-10 border border-white/15 shadow-2xl">
+                <div class="text-center mb-10 border-b border-subtle pb-8">
+                    <h3 class="font-serif text-3xl md:text-5xl font-normal text-brand-perola mb-4">Cada detalhe pensado para a noite perfeita da debutante.</h3>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm text-brand-platina font-light leading-relaxed">
+                    <div class="glass-editorial p-7 rounded-3xl">
+                        <h4 class="font-serif text-xl font-normal text-brand-nude mb-3">1. Recepção Acolhedora</h4>
+                        <p>Recepção organizada para os familiares e espaço instagramável exclusivo para fotos da debutante com os convidados.</p>
                     </div>
-                    <div class="space-y-2">
-                        <span class="text-brand-nude font-serif text-xl block">2. Gastronomia</span>
-                        <p>Jantar nobre servido nos salões climatizados com o consagrado padrão de atendimento e prataria de luxo Sonia Bittencourt.</p>
+                    <div class="glass-editorial p-7 rounded-3xl">
+                        <h4 class="font-serif text-xl font-normal text-brand-nude mb-3">2. Jantar Elegante</h4>
+                        <p>Serviço de alta gastronomia com garçons atenciosos atendendo as mesas dos familiares com conforto.</p>
                     </div>
-                    <div class="space-y-2">
-                        <span class="text-brand-nude font-serif text-xl block">3. O Grande Rito</span>
-                        <p>Entrada triunfal da debutante, homenagem dos pais, troca de sapato, entrega da joia e a clássica Valsa dos 15 Anos no centro da pista.</p>
+                    <div class="glass-editorial p-7 rounded-3xl">
+                        <h4 class="font-serif text-xl font-normal text-brand-nude mb-3">3. Momento do Protocolo</h4>
+                        <p>Entrada da debutante, homenagem dos pais, valsa tradicional e brinde organizados pela nossa equipe de cerimonial.</p>
                     </div>
-                    <div class="space-y-2">
-                        <span class="text-brand-nude font-serif text-xl block">4. A Balada</span>
-                        <p>Abertura oficial da pista de dança com DJ, efeitos de luz, coquetéis sem álcool personalizados e snacks servidos a noite toda.</p>
+                    <div class="glass-editorial p-7 rounded-3xl">
+                        <h4 class="font-serif text-xl font-normal text-brand-nude mb-3">4. Abertura da Pista de Dança</h4>
+                        <p>Transição perfeita para a balada com drinks sem álcool, DJ e snacks servidos a noite toda.</p>
                     </div>
                 </div>
-                <div class="text-center pt-4">
-                    <a href="https://wa.me/5565999847498?text=Olá!%20Quero%20montar%20uma%20proposta%20para%20festa%20de%2015%20anos." target="_blank" class="px-10 py-4 bg-brand-perola text-brand-black font-semibold text-xs md:text-sm tracking-widest uppercase rounded-full hover:bg-brand-nude transition-all shadow-xl inline-block hover:scale-105">
-                        Montar Proposta Personalizada ➔
-                    </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- TELA 6: MAIS DE 30 ANOS DE TRADIÇÃO -->
+    <section class="py-24 bg-brand-dark border-t border-subtle">
+        <div class="container mx-auto px-6 max-w-6xl text-center">
+            <div class="fade-up mb-16 max-w-4xl mx-auto">
+                <h2 class="font-serif text-4xl md:text-6xl font-normal text-brand-perola mb-8">
+                    Mais de 30 anos transformando sonhos em histórias inesquecíveis.
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20 fade-up text-left">
+                <div class="glass-editorial p-9 rounded-3xl border-t-2 border-t-brand-nude">
+                    <div class="font-serif text-3xl text-brand-perola mb-2">30+ Anos de Tradição</div>
+                    <div class="text-sm text-brand-platina font-light">Referência absoluta em grande festas em Cuiabá.</div>
                 </div>
+                <div class="glass-editorial p-9 rounded-3xl border-t-2 border-t-brand-nude">
+                    <div class="font-serif text-3xl text-brand-perola mb-2">Top of Mind MT</div>
+                    <div class="text-sm text-brand-platina font-light">O buffet mais lembrado e premiado do estado.</div>
+                </div>
+                <div class="glass-editorial p-9 rounded-3xl border-t-2 border-t-brand-nude">
+                    <div class="font-serif text-3xl text-brand-perola mb-2">Estacionamento Amplo</div>
+                    <div class="text-sm text-brand-platina font-light">Comodidade e segurança total para mais de 100 veículos.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROVA SOCIAL GOOGLE -->
+    <section class="py-24 bg-brand-black border-t border-subtle">
+        <div class="container mx-auto px-6 max-w-5xl text-center fade-up">
+            <h2 class="font-serif text-4xl md:text-5xl font-normal text-brand-perola mb-6">
+                O que dizem nossas famílias
+            </h2>
+            <div class="inline-block">
+                <a href="https://maps.app.goo.gl/qTqH4wR87krEVtBy8" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-3 px-8 py-4 bg-white/[0.05] hover:bg-white/10 border border-brand-nude/40 text-brand-perola rounded-full text-xs md:text-sm font-semibold uppercase tracking-widest transition-all shadow-xl hover:scale-105">
+                    <svg class="w-5 h-5 fill-current text-amber-400" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    <span>Ver as mais de 400 avaliações oficiais no Google Meu Negócio</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORMULÁRIO DE PROPOSTA -->
+    <section id="proposta-form" class="py-24 bg-brand-dark border-t border-subtle">
+        <div class="container mx-auto px-6 max-w-4xl text-center fade-up">
+            <span class="text-xs uppercase tracking-[0.25em] text-brand-nude font-medium block mb-3">ATENDIMENTO EXCLUSIVO</span>
+            <h2 class="font-serif text-4xl md:text-5xl font-normal text-brand-perola mb-6">
+                Solicite um orçamento para a Festa de 15 Anos
+            </h2>
+            <div class="glass-editorial p-10 rounded-3xl border border-brand-nude/30 text-left shadow-2xl">
+                <form action="https://wa.me/5565999847498" method="get" target="_blank" class="space-y-6">
+                    <div>
+                        <label class="block text-xs uppercase tracking-wider text-brand-nude font-semibold mb-2">Nome do Responsável / Anfitrião</label>
+                        <input type="text" placeholder="Seu nome completo" class="w-full bg-white/[0.05] border border-white/15 rounded-xl px-4 py-3 text-brand-perola placeholder-white/30 focus:outline-none focus:border-brand-nude text-sm">
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-xs uppercase tracking-wider text-brand-nude font-semibold mb-2">Nome da Debutante</label>
+                            <input type="text" placeholder="Nome da aniversariante" class="w-full bg-white/[0.05] border border-white/15 rounded-xl px-4 py-3 text-brand-perola placeholder-white/30 focus:outline-none focus:border-brand-nude text-sm">
+                        </div>
+                        <div>
+                            <label class="block text-xs uppercase tracking-wider text-brand-nude font-semibold mb-2">Data Prevista</label>
+                            <input type="text" placeholder="Ex: Mês / Ano" class="w-full bg-white/[0.05] border border-white/15 rounded-xl px-4 py-3 text-brand-perola placeholder-white/30 focus:outline-none focus:border-brand-nude text-sm">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-xs uppercase tracking-wider text-brand-nude font-semibold mb-2">Número Estimado de Convidados</label>
+                        <input type="text" placeholder="Ex: 150 convidados" class="w-full bg-white/[0.05] border border-white/15 rounded-xl px-4 py-3 text-brand-perola placeholder-white/30 focus:outline-none focus:border-brand-nude text-sm">
+                    </div>
+                    <div class="text-center pt-4">
+                        <button type="submit" class="w-full py-4 bg-brand-perola text-brand-black font-semibold text-xs md:text-sm tracking-widest uppercase rounded-full hover:bg-brand-nude transition-all shadow-2xl">
+                            Solicitar Orçamento via WhatsApp 💬
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
@@ -210,7 +420,7 @@
                         <li><a href="casamentos.html" class="hover:text-brand-nude transition-colors">Casamentos de Luxo</a></li>
                         <li><a href="15-anos.html" class="hover:text-brand-nude transition-colors">Festas de 15 Anos</a></li>
                         <li><a href="corporativo.html" class="hover:text-brand-nude transition-colors">Eventos Corporativos</a></li>
-                        <li><a href="kids.html" class="hover:text-brand-nude transition-colors">Sonia Bittencourt Kids</a></li>
+                        <li><a href="kids.html" class="hover:text-brand-nude transition-colors">Kids</a></li>
                     </ul>
                 </div>
                 <div>
