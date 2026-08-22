@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BUFFET SONIA BITTENCOURT | Especialistas em Casamentos de Luxo</title>
-    <meta name="description" content="Especialistas em realizar casamentos há mais de 30 anos. Gastronomia refinada, estrutura completa e atendimento consultivo em Cuiabá.">
+    <title>BUFFET SONIA BITTENCOURT | Gastronomia & Alta Experiência em Eventos</title>
+    <meta name="description" content="Há mais de 30 anos realizando sonhos em Cuiabá. Especialistas em Casamentos de Luxo, 15 Anos, Eventos Corporativos e Buffet Infantil Premium.">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,8 +46,8 @@
         }
         .glass-editorial:hover {
             border-color: rgba(226, 211, 196, 0.4);
-            transform: translateY(-4px);
-            box-shadow: 0 25px 50px -12px rgba(226, 211, 196, 0.15);
+            transform: translateY(-6px);
+            box-shadow: 0 25px 50px -12px rgba(226, 211, 196, 0.2);
         }
         .glass-header { 
             background: rgba(5, 6, 7, 0.95); 
@@ -70,1019 +70,288 @@
         ::-webkit-scrollbar-thumb { background: #3B483B; border-radius: 4px; }
     </style>
 </head>
-<body class="antialiased selection:bg-brand-sage selection:text-white">    <!-- HEADER ELEGANTE COM LOGO OFICIAL DA MARCA (SEM BOTÃO NO MENU CONFORME LAYOUT) -->
+<body class="antialiased selection:bg-brand-sage selection:text-white">
+
+    <!-- HEADER ELEGANTE GLOBAL COM NAVEGAÇÃO MULTI-PÁGINAS -->
     <header class="fixed w-full top-0 z-50 glass-header transition-all duration-300" id="header">
         <div class="container mx-auto px-6 lg:px-12 py-4 flex justify-between items-center">
-            <div class="flex items-center space-x-4">
+            <a href="index.html" class="flex items-center space-x-4">
                 <img src="assets/image1.png" alt="Logo Buffet Sonia Bittencourt" class="h-12 w-auto object-contain">
                 <div class="hidden sm:flex flex-col">
                     <span class="font-serif text-xl tracking-wide font-normal text-brand-perola">BUFFET SONIA BITTENCOURT</span>
-                    <span class="text-[10px] tracking-[0.25em] uppercase text-brand-platina font-light">Especialistas em realizar casamentos há mais de 30 anos</span>
+                    <span class="text-[10px] tracking-[0.25em] uppercase text-brand-platina font-light">Gastronomia & Eventos Inesquecíveis</span>
                 </div>
+            </a>
+
+            <!-- NAVEGAÇÃO DESKTOP -->
+            <nav class="hidden lg:flex items-center space-x-8 text-xs font-medium uppercase tracking-widest text-brand-platina">
+                <a href="index.html" class="text-brand-nude border-b border-brand-nude pb-1 font-semibold">Início</a>
+                <a href="casamentos.html" class="hover:text-brand-nude transition-colors">Casamentos</a>
+                <a href="15-anos.html" class="hover:text-brand-nude transition-colors">15 Anos</a>
+                <a href="corporativo.html" class="hover:text-brand-nude transition-colors">Corporativo</a>
+                <a href="kids.html" class="hover:text-brand-nude transition-colors">Sonia Kids</a>
+            </nav>
+
+            <div class="flex items-center space-x-4">
+                <a href="https://wa.me/5565999847498?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20orçamento." target="_blank" class="hidden sm:inline-flex px-5 py-2.5 bg-brand-nude/20 hover:bg-brand-nude text-brand-perola hover:text-brand-black border border-brand-nude/40 rounded-full text-xs font-semibold uppercase tracking-wider transition-all">
+                    WhatsApp 💬
+                </a>
             </div>
         </div>
     </header>
 
-    <!-- TELA 1: HERO -->
+    <!-- HERO GLOBAL DE ENTRADA -->
     <section class="relative min-h-screen w-full flex items-center pt-36 pb-24 overflow-hidden bg-brand-black">
         <div class="absolute inset-0 z-0">
-            <img src="assets/image71.jpg" alt="Casamento Buffet Sonia Bittencourt" class="w-full h-full object-cover cinematic-img opacity-45">
-            <div class="absolute inset-0 bg-gradient-to-r from-brand-black via-brand-black/80 to-brand-black/50"></div>
+            <img src="assets/image71.jpg" alt="Buffet Sonia Bittencourt Espaço" class="w-full h-full object-cover cinematic-img opacity-40">
+            <div class="absolute inset-0 bg-gradient-to-r from-brand-black via-brand-black/85 to-brand-black/60"></div>
             <div class="absolute inset-0 bg-gradient-to-b from-brand-black/80 via-transparent to-brand-black"></div>
         </div>
 
         <div class="container relative z-10 px-6 lg:px-12 mx-auto max-w-7xl">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-6 fade-up">
-                <!-- COLUNA ESQUERDA: NARRATIVA DA TELA 1 -->
-                <div class="lg:col-span-7 space-y-6 text-left">
-                    
-                    <!-- 1. TEXTO ACIMA DO TÍTULO CONFORME LAYOUT -->
-                    <span class="text-xs uppercase tracking-[0.2em] text-brand-nude font-medium block">
-                        Organizar um casamento deve ser emocionante, não estressante.
-                    </span>
+            <div class="max-w-4xl mx-auto text-center space-y-6 fade-up">
+                <span class="text-xs uppercase tracking-[0.3em] text-brand-nude font-medium block">
+                    MUITO MAIS QUE UM BUFFET. UMA TRADIÇÃO DE 30 ANOS EM CUIABÁ.
+                </span>
 
-                    <!-- TÍTULO PRINCIPAL -->
-                    <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-normal leading-[1.12] text-brand-perola">
-                        O casamento dos seus sonhos merece uma experiência <i class="italic text-brand-nude font-serif">simplesmente perfeita.</i>
-                    </h1>
+                <h1 class="font-serif text-4xl sm:text-6xl lg:text-7xl font-normal leading-[1.12] text-brand-perola">
+                    Transformando celebrações em <i class="italic text-brand-nude font-serif">momentos inesquecíveis.</i>
+                </h1>
 
-                    <!-- VÍDEO POSICIONADO NO MEIO DO TEXTO APENAS PARA DISPOSITIVOS MÓVEIS (RESPONSIVO - LG:HIDDEN) -->
-                    <div class="block lg:hidden my-4 w-full h-64 sm:h-80 rounded-3xl overflow-hidden glass-editorial relative border border-brand-nude/30 group shadow-2xl">
-                        <video id="heroVideoPlayerMobile" autoplay loop muted playsinline class="w-full h-full object-cover cinematic-img">
-                            <source src="assets/vid01.mp4" type="video/mp4">
-                            Seu navegador não suporta vídeos HTML5.
-                        </video>
-                        <div class="absolute top-4 right-4 z-20">
-                            <button onclick="toggleHeroAudio('heroVideoPlayerMobile', this)" class="flex items-center space-x-2 bg-brand-black/80 hover:bg-brand-black backdrop-blur-md px-3.5 py-1.5 rounded-full border border-brand-nude/40 text-brand-perola transition-all shadow-xl hover:scale-105 cursor-pointer">
-                                <span class="text-[10px] font-semibold tracking-wider uppercase text-brand-nude">Ouvir com Áudio 🔊</span>
-                            </button>
-                        </div>
-                    </div>
+                <p class="text-brand-platina font-light text-base md:text-xl max-w-3xl mx-auto leading-relaxed">
+                    Alta gastronomia, cenografia impecável e atendimento consultivo especializado para todos os tipos de grandes eventos.
+                </p>
 
-                    <!-- 2. TEXTO LOGO ABAIXO -->
-                    <div class="glass-editorial p-6 rounded-3xl border-l-4 border-l-brand-nude">
-                        <p class="text-brand-perola font-light text-base md:text-lg leading-relaxed">
-                            Há mais de 30 anos, o Buffet Sonia Bittencourt cuida de cada detalhe da gastronomia à estrutura, para que vocês vivam o grande dia com absoluta leveza e segurança.
-                        </p>
-                    </div>
-
-                    <!-- 3. TEXTO INFERIOR -->
-                    <div class="space-y-4 text-brand-platina font-light text-sm md:text-base leading-relaxed">
-                        <p>Do planejamento à última lembrança da festa, nossa equipe está preparada para tornar essa jornada mais leve e especial.</p>
-                    </div>
-
-                    <!-- BOTÃO ALTERADO PARA: Consultar Disponibilidade (IMG1) -->
-                    <div class="pt-2">
-                        <a href="https://wa.me/5565999847498?text=Olá!%20Gostaria%20de%20consultar%20disponibilidade." target="_blank" class="px-10 py-4 bg-brand-perola text-brand-black font-semibold text-xs md:text-sm tracking-widest uppercase rounded-full hover:bg-brand-nude transition-all shadow-2xl inline-block text-center hover:scale-105">
-                            Consultar Disponibilidade
-                        </a>
-                    </div>
-                </div>
-
-                <!-- COLUNA DIREITA: VÍDEO PRINCIPAL COMPLETO NO DESKTOP -->
-                <div class="lg:col-span-5 hidden lg:block">
-                    <div class="w-full h-80 md:h-[480px] rounded-3xl overflow-hidden glass-editorial relative border border-white/20 group shadow-2xl">
-                        <video id="heroVideoPlayer" autoplay loop muted playsinline class="w-full h-full object-cover cinematic-img">
-                            <source src="assets/vid01.mp4" type="video/mp4">
-                            Seu navegador não suporta vídeos HTML5.
-                        </video>
-                        
-                        <!-- BOTÃO FLUTUANTE DE ÁUDIO / MÚSICA -->
-                        <div class="absolute top-4 right-4 z-20">
-                            <button id="toggleAudioBtn" onclick="toggleHeroAudio('heroVideoPlayer', this)" class="flex items-center space-x-2 bg-brand-black/80 hover:bg-brand-black backdrop-blur-md px-3.5 py-1.5 rounded-full border border-brand-nude/40 text-brand-perola transition-all shadow-xl hover:scale-105 cursor-pointer">
-                                <svg id="audioMutedIcon" class="w-3.5 h-3.5 fill-current text-brand-nude" viewBox="0 0 24 24"><path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73 4.27 3zM12 4L9.91 6.09 12 8.18V4z"/></svg>
-                                <svg id="audioUnmutedIcon" class="w-3.5 h-3.5 fill-current text-brand-nude hidden" viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
-                                <span id="audioBtnText" class="text-[10px] font-semibold tracking-wider uppercase text-brand-nude">Ouvir com Áudio 🔊</span>
-                            </button>
-                        </div>
-
-                        <div class="absolute inset-0 bg-black/25 flex flex-col items-center justify-end p-6 pointer-events-none">
-                            <div class="flex items-center space-x-2 bg-brand-black/70 backdrop-blur-md px-4 py-2 rounded-full border border-white/10">
-                                <span class="w-2 h-2 rounded-full bg-red-500 animate-ping"></span>
-                                <span class="text-[11px] tracking-[0.2em] uppercase font-semibold text-brand-nude">Experiência Sonora & Gastronômica</span>
-                            </div>
-                        </div>
-                    </div>
+                <div class="pt-6 flex flex-wrap justify-center gap-4">
+                    <a href="#hub-servicos" class="px-10 py-4 bg-brand-perola text-brand-black font-semibold text-xs md:text-sm tracking-widest uppercase rounded-full hover:bg-brand-nude transition-all shadow-2xl hover:scale-105">
+                        Conhecer Nossas Experiências ➔
+                    </a>
+                    <a href="https://wa.me/5565999847498?text=Olá!%20Gostaria%20de%20falar%20com%20um%20consultor." target="_blank" class="px-10 py-4 border border-brand-nude/40 text-brand-perola font-semibold text-xs md:text-sm tracking-widest uppercase rounded-full hover:bg-white/10 transition-all shadow-xl">
+                        Falar com Consultor
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- TELA 2: DORES & PREOCUPAÇÕES -->
-    <section class="py-24 relative border-t border-subtle bg-brand-dark">
-        <div class="container relative z-10 mx-auto px-6 max-w-5xl text-center">
-            
-            <div class="fade-up mb-12 max-w-3xl mx-auto">
-                <span class="text-xs uppercase tracking-[0.25em] text-brand-nude font-medium block mb-3">PLANEJAMENTO SEM INSEGURANÇAS</span>
-                <p class="text-brand-perola font-serif text-2xl md:text-3xl font-normal leading-relaxed italic">
-                    Ao iniciar os preparativos, é natural que surjam questionamentos sobre como tudo irá acontecer no grande dia:
+    <!-- HUB DE SELEÇÃO DE EXPERIÊNCIAS / SERVIÇOS -->
+    <section id="hub-servicos" class="py-24 bg-brand-dark border-t border-subtle">
+        <div class="container mx-auto px-6 max-w-7xl">
+            <div class="text-center fade-up mb-16 max-w-3xl mx-auto">
+                <span class="text-xs uppercase tracking-[0.25em] text-brand-nude font-semibold block mb-3">EXPERIÊNCIAS EXCLUSIVAS</span>
+                <h2 class="font-serif text-4xl md:text-6xl font-normal text-brand-perola mb-6">
+                    Selecione o estilo da sua comemoração
+                </h2>
+                <p class="text-brand-platina font-light text-sm md:text-base">
+                    Cada tipo de evento exige um cuidado especial, menus dedicados e uma atmosfera única. Escolha abaixo para explorar:
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16 fade-up text-left">
-                <div class="glass-editorial p-7 rounded-3xl flex items-center space-x-5">
-                    <span class="text-brand-nude font-serif text-3xl font-bold">01</span>
-                    <p class="text-brand-platina font-light text-sm md:text-base">Será que os fornecedores vão cumprir o combinado?</p>
-                </div>
-                <div class="glass-editorial p-7 rounded-3xl flex items-center space-x-5">
-                    <span class="text-brand-nude font-serif text-3xl font-bold">02</span>
-                    <p class="text-brand-platina font-light text-sm md:text-base">Será que todos os detalhes estarão perfeitamente alinhados?</p>
-                </div>
-                <div class="glass-editorial p-7 rounded-3xl flex items-center space-x-5">
-                    <span class="text-brand-nude font-serif text-3xl font-bold">03</span>
-                    <p class="text-brand-platina font-light text-sm md:text-base">Será que o atendimento será acolhedor como você espera?</p>
-                </div>
-                <!-- ITEM 04 ALTERADO PARA A COPY DA IMG2 -->
-                <div class="glass-editorial p-7 rounded-3xl flex items-center space-x-5">
-                    <span class="text-brand-nude font-serif text-3xl font-bold">04</span>
-                    <p class="text-brand-platina font-light text-sm md:text-base">Quem resolve os imprevistos enquanto você vive o seu grande dia?</p>
-                </div>
-            </div>
-
-            <div class="glass-editorial p-10 md:p-16 rounded-3xl fade-up border border-brand-perola/20 max-w-4xl mx-auto shadow-2xl text-left">
-                <span class="text-xs uppercase tracking-widest text-brand-platina font-light block mb-3 text-center">E talvez a maior preocupação de todas:</span>
-                <h3 class="font-serif text-3xl md:text-5xl font-normal text-brand-perola italic mb-8 text-center">
-                    Será que vou conseguir aproveitar meu próprio casamento?
-                </h3>
-
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-brand-platina font-light text-sm leading-relaxed mb-10 border-t border-subtle pt-8">
-                    <div>
-                        <p class="text-brand-nude font-semibold mb-2 text-base">Sem Segunda Chance</p>
-                        <p>Porque no casamento não existe segunda chance. Cada escolha influencia diretamente a experiência que vocês e seus convidados terão durante a festa.</p>
+            <!-- GRADE DOS 4 NICHOS -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 fade-up">
+                <!-- CARD 1: CASAMENTOS -->
+                <a href="casamentos.html" class="glass-editorial rounded-3xl overflow-hidden flex flex-col justify-between group relative border border-white/15 transition-all">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="assets/image21.jpg" alt="Casamentos de Luxo" class="w-full h-full object-cover cinematic-img group-hover:scale-110 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-brand-card via-black/20 to-transparent"></div>
+                        <span class="absolute top-4 left-4 bg-brand-black/80 backdrop-blur-md px-3.5 py-1.5 rounded-full border border-white/10 text-[10px] text-brand-nude font-semibold uppercase tracking-widest">
+                            Casamentos
+                        </span>
                     </div>
-                    <div>
-                        <p class="text-brand-nude font-semibold mb-2 text-base">Além do Buffet</p>
-                        <p>Por isso, escolher quem estará ao lado de vocês nesse momento vai muito além de contratar um serviço de buffet. É escolher a tranquilidade da sua história.</p>
+                    <div class="p-8 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-serif text-2xl font-normal text-brand-perola mb-3">Casamentos de Luxo</h3>
+                            <p class="text-brand-platina text-xs font-light leading-relaxed mb-6">
+                                Cerimônias inesquecíveis, alta gastronomia de assinatura e tranquilidade absoluta dos noivos do planejamento à festa.
+                            </p>
+                        </div>
+                        <span class="text-brand-nude text-xs font-semibold uppercase tracking-wider group-hover:translate-x-1 transition-transform inline-flex items-center space-x-1">
+                            <span>Explorar Casamentos</span>
+                            <span>➔</span>
+                        </span>
                     </div>
-                    <div>
-                        <p class="text-brand-nude font-semibold mb-2 text-base">Tranquilidade Absoluta</p>
-                        <p>É escolher uma equipe preparada para transformar meses de planejamento em tranquilidade do início ao fim.</p>
-                    </div>
-                </div>
+                </a>
 
-                <div class="text-center">
-                    <a href="#proposta-form" class="inline-block px-10 py-4 border border-brand-perola/40 text-brand-perola font-medium text-xs md:text-sm tracking-widest uppercase rounded-full hover:bg-brand-perola hover:text-brand-black transition-all shadow-xl">
-                        Quero saber como funciona ➔
-                    </a>
-                </div>
+                <!-- CARD 2: 15 ANOS -->
+                <a href="15-anos.html" class="glass-editorial rounded-3xl overflow-hidden flex flex-col justify-between group relative border border-white/15 transition-all">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="assets/image34.jpg" alt="15 Anos e Debutantes" class="w-full h-full object-cover cinematic-img group-hover:scale-110 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-brand-card via-black/20 to-transparent"></div>
+                        <span class="absolute top-4 left-4 bg-brand-black/80 backdrop-blur-md px-3.5 py-1.5 rounded-full border border-white/10 text-[10px] text-brand-nude font-semibold uppercase tracking-widest">
+                            Debutantes
+                        </span>
+                    </div>
+                    <div class="p-8 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-serif text-2xl font-normal text-brand-perola mb-3">Bailes de 15 Anos</h3>
+                            <p class="text-brand-platina text-xs font-light leading-relaxed mb-6">
+                                Balada moderna, efeitos visuais cênicos, gastronomia contemporânea e uma festa espetacular para a debutante.
+                            </p>
+                        </div>
+                        <span class="text-brand-nude text-xs font-semibold uppercase tracking-wider group-hover:translate-x-1 transition-transform inline-flex items-center space-x-1">
+                            <span>Explorar 15 Anos</span>
+                            <span>➔</span>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- CARD 3: CORPORATIVO -->
+                <a href="corporativo.html" class="glass-editorial rounded-3xl overflow-hidden flex flex-col justify-between group relative border border-white/15 transition-all">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="assets/image37.png" alt="Eventos Corporativos" class="w-full h-full object-cover cinematic-img group-hover:scale-110 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-brand-card via-black/20 to-transparent"></div>
+                        <span class="absolute top-4 left-4 bg-brand-black/80 backdrop-blur-md px-3.5 py-1.5 rounded-full border border-white/10 text-[10px] text-brand-nude font-semibold uppercase tracking-widest">
+                            Corporativo
+                        </span>
+                    </div>
+                    <div class="p-8 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-serif text-2xl font-normal text-brand-perola mb-3">Eventos Empresariais</h3>
+                            <p class="text-brand-platina text-xs font-light leading-relaxed mb-6">
+                                Jantares de gala, congressos, lançamentos de marcas e premiações com pontualidade e credibilidade.
+                            </p>
+                        </div>
+                        <span class="text-brand-nude text-xs font-semibold uppercase tracking-wider group-hover:translate-x-1 transition-transform inline-flex items-center space-x-1">
+                            <span>Explorar Corporativo</span>
+                            <span>➔</span>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- CARD 4: KIDS -->
+                <a href="kids.html" class="glass-editorial rounded-3xl overflow-hidden flex flex-col justify-between group relative border border-white/15 transition-all">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="assets/image68.png" alt="Sonia Bittencourt Kids" class="w-full h-full object-cover cinematic-img group-hover:scale-110 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-brand-card via-black/20 to-transparent"></div>
+                        <span class="absolute top-4 left-4 bg-brand-black/80 backdrop-blur-md px-3.5 py-1.5 rounded-full border border-white/10 text-[10px] text-brand-nude font-semibold uppercase tracking-widest">
+                            Buffet Infantil
+                        </span>
+                    </div>
+                    <div class="p-8 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-serif text-2xl font-normal text-brand-perola mb-3">Sonia Bittencourt Kids</h3>
+                            <p class="text-brand-platina text-xs font-light leading-relaxed mb-6">
+                                Aniversários infantis de alto padrão, brinquedos modernos, espaço seguro e gastronomia especial para toda a família.
+                            </p>
+                        </div>
+                        <span class="text-brand-nude text-xs font-semibold uppercase tracking-wider group-hover:translate-x-1 transition-transform inline-flex items-center space-x-1">
+                            <span>Explorar Sonia Kids</span>
+                            <span>➔</span>
+                        </span>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- TELA 3: SONIA BITTENCOURT -->
-    <section class="py-24 bg-brand-black relative">
+    <!-- SOBRE A MARCA & ESTRUTURA -->
+    <section class="py-24 bg-brand-black border-t border-subtle">
         <div class="container mx-auto px-6 max-w-6xl">
-            <div class="text-center fade-up mb-16">
-                <span class="text-xs uppercase tracking-[0.25em] text-brand-platina font-light block mb-3">SONIA BITTENCOURT</span>
-                <h2 class="font-serif text-4xl md:text-6xl font-normal text-brand-perola italic">
-                    Muito mais do que um buffet. Uma experiência criada para vocês.
-                </h2>
-            </div>
-
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
-                <div class="space-y-6 text-brand-platina font-light text-sm md:text-base leading-relaxed fade-up">
-                    <div class="glass-editorial p-7 rounded-3xl">
-                        <p class="text-brand-perola font-semibold text-lg mb-2">Protagonistas do seu dia</p>
-                        <!-- IMG3: REMOVIDO O '-' DEPOIS DE PROTAGONISTAS -->
-                        <p>O casamento é um dos dias mais importantes da vida de um casal. E acreditamos que vocês devem viver esse momento como protagonistas, nunca como organizadores preocupados da própria festa.</p>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6 fade-up">
+                    <span class="text-xs uppercase tracking-[0.25em] text-brand-nude font-semibold block">QUALIDADE & RECONHECIMENTO</span>
+                    <h2 class="font-serif text-4xl md:text-5xl font-normal text-brand-perola leading-tight">
+                        3 Decadas premiadas como referência em Cuiabá.
+                    </h2>
+                    <div class="glass-editorial p-8 rounded-3xl space-y-4 text-brand-platina font-light text-sm md:text-base leading-relaxed border border-white/15">
+                        <p>O Buffet Sonia Bittencourt é vencedor do prêmio <strong>Top of Mind</strong> como o buffet mais lembrado do Mato Grosso. Nossa trajetória foi construída com respeito ao cliente, paixão pela gastronomia e constante inovação em nossos espaços.</p>
+                        <p>Contamos com uma estrutura composta pelo imponente <strong>Salão Climatizado</strong>, o romântico <strong>Espaço Garden</strong> e suítes VIP preparadas para a recepção dos anfitriões.</p>
                     </div>
-                    <div class="glass-editorial p-7 rounded-3xl">
-                        <p class="text-brand-perola font-semibold text-lg mb-2">Bastidores Impecáveis</p>
-                        <p>Enquanto vocês aproveitam cada abraço, cada sorriso e cada emoção, existe uma equipe altamente treinada trabalhando nos bastidores para que tudo aconteça exatamente como planejado.</p>
-                    </div>
-                    <div class="p-7 border-l-4 border-l-brand-nude bg-white/[0.02] rounded-r-3xl">
-                        <p class="font-serif italic text-brand-nude text-xl">Essa é a nossa missão: Há mais de 30 anos, o Buffet Sonia Bittencourt ajuda casais a transformarem sonhos em celebrações memoráveis com alto padrão gastronômico.</p>
-                    </div>
-                    <!-- IMG4: COPY ALTERADA PARA A FRASE SOLICITADA -->
-                    <div class="glass-editorial p-7 rounded-3xl">
-                        <p>O casamento perfeito não acontece por acaso. Ele é construído com experiência, planejamento e um cuidado que acompanha vocês do primeiro atendimento ao último convidado.</p>
+                    <div class="flex items-center space-x-6 pt-4">
+                        <div class="flex flex-col">
+                            <span class="font-serif text-4xl font-normal text-brand-nude">30+</span>
+                            <span class="text-xs text-brand-platina uppercase tracking-wider font-light">Anos de História</span>
+                        </div>
+                        <div class="h-10 w-[1px] bg-white/10"></div>
+                        <div class="flex flex-col">
+                            <span class="font-serif text-4xl font-normal text-brand-nude">Top 1</span>
+                            <span class="text-xs text-brand-platina uppercase tracking-wider font-light">Top of Mind MT</span>
+                        </div>
+                        <div class="h-10 w-[1px] bg-white/10"></div>
+                        <div class="flex flex-col">
+                            <span class="font-serif text-4xl font-normal text-brand-nude">400+</span>
+                            <span class="text-xs text-brand-platina uppercase tracking-wider font-light">Avaliações 5★</span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="fade-up relative">
+                <div class="fade-up">
                     <div class="rounded-3xl overflow-hidden p-2 border-2 border-brand-nude/40 bg-gradient-to-tr from-brand-nude/20 via-transparent to-brand-perola/30 shadow-2xl">
-                        <div class="rounded-2xl overflow-hidden border border-white/20">
-                            <img src="assets/image64.jpg" alt="Casal de Noivos em Celebração - Buffet Sonia Bittencourt" class="w-full h-[540px] object-cover cinematic-img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- IMG5: VISUAL MELHORADO EM SEQUÊNCIA VERTICAL/STACKED DAS TAGS COM DESIGN ELEGANTE (SEM NÚMEROS) -->
-            <div class="glass-editorial p-10 rounded-3xl text-center border border-brand-nude/30 fade-up max-w-3xl mx-auto shadow-2xl bg-gradient-to-b from-brand-card via-brand-dark to-brand-black">
-                <span class="text-xs uppercase tracking-[0.25em] text-brand-nude font-medium block mb-3">EXPERIÊNCIA INTEGRADA</span>
-                <h3 class="font-serif text-3xl md:text-4xl font-normal text-brand-perola mb-8">Todos os detalhes conectados em um só lugar.</h3>
-                
-                <div class="flex flex-col space-y-3 max-w-md mx-auto">
-                    <div class="py-3.5 px-8 rounded-2xl bg-white/[0.04] border border-white/10 text-brand-perola font-medium text-sm md:text-base flex items-center justify-between shadow-lg hover:border-brand-nude/40 transition-colors">
-                        <span class="tracking-widest uppercase text-xs md:text-sm font-semibold">Gastronomia</span>
-                        <span class="text-brand-nude">✦</span>
-                    </div>
-                    <div class="py-3.5 px-8 rounded-2xl bg-white/[0.04] border border-white/10 text-brand-perola font-medium text-sm md:text-base flex items-center justify-between shadow-lg hover:border-brand-nude/40 transition-colors">
-                        <span class="tracking-widest uppercase text-xs md:text-sm font-semibold">Estrutura</span>
-                        <span class="text-brand-nude">✦</span>
-                    </div>
-                    <div class="py-3.5 px-8 rounded-2xl bg-white/[0.04] border border-white/10 text-brand-perola font-medium text-sm md:text-base flex items-center justify-between shadow-lg hover:border-brand-nude/40 transition-colors">
-                        <span class="tracking-widest uppercase text-xs md:text-sm font-semibold">Fornecedores</span>
-                        <span class="text-brand-nude">✦</span>
-                    </div>
-                    <div class="py-3.5 px-8 rounded-2xl bg-white/[0.04] border border-white/10 text-brand-perola font-medium text-sm md:text-base flex items-center justify-between shadow-lg hover:border-brand-nude/40 transition-colors">
-                        <span class="tracking-widest uppercase text-xs md:text-sm font-semibold">Equipe</span>
-                        <span class="text-brand-nude">✦</span>
-                    </div>
-                    <div class="py-3.5 px-8 rounded-2xl bg-white/[0.04] border border-white/10 text-brand-perola font-medium text-sm md:text-base flex items-center justify-between shadow-lg hover:border-brand-nude/40 transition-colors">
-                        <span class="tracking-widest uppercase text-xs md:text-sm font-semibold">Planejamento</span>
-                        <span class="text-brand-nude">✦</span>
+                        <img src="assets/image70.jpg" alt="Gastronomia Buffet Sonia Bittencourt" class="rounded-2xl w-full h-[480px] object-cover cinematic-img">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- TELA 4: TUDO EM UM SÓ LUGAR -->
-    <section class="py-24 relative border-t border-subtle bg-brand-dark">
-        <div class="container relative z-10 mx-auto px-6 max-w-6xl text-center">
-            <div class="fade-up mb-16 max-w-4xl mx-auto">
-                <!-- IMG6 (VERMELHO): MAIOR ÊNFASE NO TÍTULO COM TAMANHO E COR DESTACADOS -->
-                <h2 class="font-serif text-5xl md:text-7xl font-normal text-brand-perola mb-8 leading-tight tracking-tight">
-                    Tudo o que o seu casamento precisa, <span class="italic text-brand-nude block mt-2">em um só lugar.</span>
-                </h2>
-                <!-- IMG6 (AMARELO): FRASES UMA EMBAIXO DA OUTRA PARA FACILITAR A LEITURA -->
-                <div class="text-brand-platina font-light text-base md:text-xl space-y-2 max-w-2xl mx-auto">
-                    <p class="block">Menos preocupações durante o planejamento.</p>
-                    <p class="block font-medium text-brand-nude">Mais tranquilidade para viver cada momento até o grande dia.</p>
-                </div>
-            </div>
-
-            <!-- IMG7: CAIXA DE TEXTO COM FOTO DE FUNDO ELEGANTE E SOBREPOSIÇÃO ESCURA DE LUXO PARA MÁXIMA ELEGÂNCIA E DESTAQUE DE LEITURA -->
-            <div class="relative text-brand-perola font-light text-base md:text-lg leading-relaxed max-w-4xl mx-auto space-y-6 mb-20 fade-up text-left rounded-3xl overflow-hidden border-2 border-brand-nude/40 shadow-[0_30px_70px_-15px_rgba(0,0,0,0.9)] p-10 md:p-14">
-                <!-- FOTO DE FUNDO AMBIENTAL COM OPACIDADE SUAVE E OVERLAY ESCURO CINEMÁTICO -->
-                <div class="absolute inset-0 z-0">
-                    <img src="assets/image71.jpg" alt="Fundo Espaço Buffet Sonia Bittencourt" class="w-full h-full object-cover opacity-20 filter brightness-75 contrast-125">
-                    <div class="absolute inset-0 bg-gradient-to-b from-brand-black/95 via-brand-card/90 to-brand-black/95"></div>
-                </div>
-
-                <div class="relative z-10 space-y-6">
-                    <p>Organizar um casamento envolve dezenas de decisões. São fornecedores, contratos, prazos, reuniões e detalhes que precisam estar perfeitamente alinhados.</p>
-                    <p>E sabemos que essa fase, que deveria ser cheia de emoção, muitas vezes pode se transformar em uma grande preocupação para os noivos.</p>
-                    <p>Por isso, criamos uma experiência diferente. No Buffet Sonia Bittencourt, vocês encontram uma estrutura completa e uma equipe preparada para cuidar de cada etapa do processo.</p>
-                    <p>Com os principais fornecedores integrados, o planejamento se torna mais organizado, a comunicação mais simples e a execução muito mais segura.</p>
-                    <p class="font-serif italic text-brand-nude text-2xl text-center pt-8 border-t border-brand-nude/30 font-normal">Porque vocês não precisam passar meses administrando fornecedores. Vocês precisam viver a alegria de construir esse momento.</p>
-                </div>
-            </div>
-
-            <!-- BLOCOS DE SERVIÇOS -->
-            <div class="mb-16 fade-up">
-                <h3 class="font-serif text-4xl font-normal text-brand-perola mb-12">Uma experiência completa para o seu casamento</h3>
-                
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
-                    <div class="glass-editorial rounded-3xl overflow-hidden flex flex-col justify-between group">
-                        <div class="h-48 overflow-hidden relative">
-                            <img src="assets/image70.jpg" alt="Gastronomia Refinada" class="w-full h-full object-cover cinematic-img">
-                        </div>
-                        <div class="p-8">
-                            <span class="text-brand-nude text-xs uppercase tracking-widest font-semibold mb-2 block">Gastronomia Refinada</span>
-                            <h4 class="font-serif text-2xl font-normal text-brand-perola mb-3">Sabores Inesquecíveis</h4>
-                            <p class="text-brand-platina text-sm font-light leading-relaxed">Sabores cuidadosamente planejados para surpreender vocês e seus convidados, da ilha de frios ao tradicional Escaldado Cuiabano.</p>
-                        </div>
-                    </div>
-
-                    <div class="glass-editorial rounded-3xl overflow-hidden flex flex-col justify-between group">
-                        <div class="h-48 overflow-hidden relative">
-                            <img src="assets/image8.jpg" alt="Projeto Decorativo" class="w-full h-full object-cover cinematic-img">
-                        </div>
-                        <div class="p-8">
-                            <span class="text-brand-nude text-xs uppercase tracking-widest font-semibold mb-2 block">Projeto Decorativo</span>
-                            <h4 class="font-serif text-2xl font-normal text-brand-perola mb-3">Ambientes Elegantes</h4>
-                            <p class="text-brand-platina text-sm font-light leading-relaxed">Ambientes pensados com sofisticação para traduzir o estilo e a personalidade única do casal.</p>
-                        </div>
-                    </div>
-
-                    <div class="glass-editorial rounded-3xl overflow-hidden flex flex-col justify-between group">
-                        <div class="h-48 overflow-hidden relative">
-                            <img src="assets/image71.jpg" alt="Estrutura Completa Espaço Garden" class="w-full h-full object-cover cinematic-img">
-                        </div>
-                        <div class="p-8">
-                            <span class="text-brand-nude text-xs uppercase tracking-widest font-semibold mb-2 block">Estrutura Completa</span>
-                            <h4 class="font-serif text-2xl font-normal text-brand-perola mb-3">Espaço Nobre Próprio</h4>
-                            <p class="text-brand-platina text-sm font-light leading-relaxed">Salão climatizado para 250 convidados, Espaço Garden para cerimônia e Sala dos Noivos VIP.</p>
-                        </div>
-                    </div>
-
-                    <div class="glass-editorial rounded-3xl overflow-hidden flex flex-col justify-between group">
-                        <div class="h-48 overflow-hidden relative">
-                            <img src="assets/image34.jpg" alt="Pista de Dança Cênica" class="w-full h-full object-cover cinematic-img">
-                        </div>
-                        <div class="p-8">
-                            <span class="text-brand-nude text-xs uppercase tracking-widest font-semibold mb-2 block">Som & Iluminação</span>
-                            <h4 class="font-serif text-2xl font-normal text-brand-perola mb-3">Pista de Dança Cênica</h4>
-                            <p class="text-brand-platina text-sm font-light leading-relaxed">Sonorização moderna, iluminação cênica de destaque e cabine de DJ para agitar a celebração.</p>
-                        </div>
-                    </div>
-
-                    <div class="glass-editorial rounded-3xl overflow-hidden flex flex-col justify-between group md:col-span-2">
-                        <div class="h-48 overflow-hidden relative">
-                            <img src="assets/image36.jpg" alt="Equipe de Garçons e Cerimonial" class="w-full h-full object-cover cinematic-img">
-                        </div>
-                        <div class="p-8">
-                            <span class="text-brand-nude text-xs uppercase tracking-widest font-semibold mb-2 block">Atendimento Dedicado</span>
-                            <h4 class="font-serif text-2xl font-normal text-brand-perola mb-3">Cerimonial & Garçons Uniformizados</h4>
-                            <p class="text-brand-platina text-sm font-light leading-relaxed">Uma equipe atenciosa com maître e recepção acompanhando vocês durante toda a jornada até a festa.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mt-12 text-center">
-                    <a href="#proposta-form" class="px-12 py-4 bg-brand-perola text-brand-black font-semibold text-xs md:text-sm tracking-widest uppercase rounded-full hover:bg-brand-nude transition-all shadow-2xl inline-block">
-                        QUERO CONHECER ESSA EXPERIÊNCIA
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- TELA 5: CADA DETALHE PENSADO -->
-    <section class="py-24 bg-brand-black">
-        <div class="container mx-auto px-6 max-w-6xl text-center">
-            <div class="glass-editorial p-10 md:p-16 rounded-3xl text-left fade-up space-y-10 border border-white/15 shadow-2xl">
-                <div class="text-center mb-10 border-b border-subtle pb-8">
-                    <h3 class="font-serif text-3xl md:text-5xl font-normal text-brand-perola mb-4">Cada detalhe pensado para que vocês aproveitem o que realmente importa.</h3>
-                    <p class="text-xs md:text-sm uppercase tracking-widest text-brand-nude font-medium">O grande dia passa rápido. Mas a experiência começa muito antes.</p>
-                    <p class="text-xs md:text-sm text-brand-platina font-light mt-2">Por isso, cuidamos de cada etapa para que vocês tenham tranquilidade durante o planejamento e possam aproveitar cada segundo da celebração.</p>
-                </div>
-
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm text-brand-platina font-light leading-relaxed">
-                    <div class="glass-editorial p-7 rounded-3xl">
-                        <h4 class="font-serif text-xl font-normal text-brand-nude mb-3">Seus convidados começam a viver a experiência desde o primeiro momento.</h4>
-                        <p>Uma equipe preparada para receber, orientar e proporcionar uma chegada organizada, elegante e acolhedora.</p>
-                    </div>
-                    <div class="glass-editorial p-7 rounded-3xl">
-                        <h4 class="font-serif text-xl font-normal text-brand-nude mb-3">Porque cada casal tem uma história diferente. E o menu também deve ter.</h4>
-                        <p>Criamos experiências gastronômicas pensadas para o estilo do casamento e para surpreender os convidados em cada detalhe.</p>
-                    </div>
-                    <div class="glass-editorial p-7 rounded-3xl">
-                        <h4 class="font-serif text-xl font-normal text-brand-nude mb-3">Pessoas fazem a diferença em grandes momentos.</h4>
-                        <p>Nossa equipe é treinada para oferecer atendimento discreto, ágil e cordial, garantindo que seus convidados sejam cuidados durante toda a celebração.</p>
-                    </div>
-                    <div class="glass-editorial p-7 rounded-3xl">
-                        <h4 class="font-serif text-xl font-normal text-brand-nude mb-3">Tudo organizado para que vocês não precisem se preocupar.</h4>
-                        <p>Um ambiente preparado para receber o seu casamento com conforto, beleza e funcionalidade.</p>
-                    </div>
-                    <div class="glass-editorial p-7 rounded-3xl">
-                        <h4 class="font-serif text-xl font-normal text-brand-nude mb-3">O cuidado começa antes mesmo dos convidados entrarem na festa.</h4>
-                        <p>Estacionamento monitorado para mais de 100 veículos, trazendo mais conforto e segurança para todos.</p>
-                    </div>
-                    <div class="glass-editorial p-7 rounded-3xl">
-                        <h4 class="font-serif text-xl font-normal text-brand-nude mb-3">Menos decisões espalhadas. Mais tranquilidade.</h4>
-                        <p>Com uma equipe preparada e fornecedores alinhados, vocês têm mais segurança para aproveitar a jornada até o casamento.</p>
-                    </div>
-                </div>
-
-                <div class="text-center pt-8 border-t border-subtle">
-                    <p class="text-xs md:text-sm text-brand-platina font-light">No final, o que permanece são as lembranças. Os abraços, os sorrisos, a emoção. A certeza de que tudo aconteceu exatamente como vocês imaginaram.</p>
-                    <p class="font-serif italic text-brand-nude text-2xl mt-4 font-normal">O nosso trabalho é cuidar dos detalhes. O de vocês é viver o momento.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- TELA 6: MAIS DE 30 ANOS -->
+    <!-- PROVA SOCIAL GOOGLE -->
     <section class="py-24 bg-brand-dark border-t border-subtle">
-        <div class="container mx-auto px-6 max-w-6xl text-center">
-            <div class="fade-up mb-16 max-w-4xl mx-auto">
-                <h2 class="font-serif text-4xl md:text-6xl font-normal text-brand-perola mb-8">
-                    Mais de 30 anos transformando sonhos em histórias para contar.
-                </h2>
-                <div class="text-brand-platina font-light text-sm md:text-base leading-relaxed space-y-4 glass-editorial p-10 rounded-3xl border border-white/15 text-left shadow-2xl">
-                    <p>Existem momentos que acontecem uma única vez. E justamente por isso, eles precisam estar nas mãos de quem entende a importância de cada detalhe. Há mais de três décadas, o Buffet Sonia Bittencourt participa de momentos especiais de famílias, celebrando histórias, emoções e conquistas.</p>
-                    <p>Essa experiência trouxe algo que nenhum curso ou tendência substitui: <strong class="text-brand-nude font-semibold">Conhecimento real de mercado.</strong></p>
-                    <p>Aprendemos que cada casal tem uma história diferente. Cada família tem expectativas únicas. Cada casamento precisa ser tratado como exclusivo.</p>
-                    <p>Por isso, nossa dedicação continua sendo a mesma desde o início: Entregar uma experiência segura, organizada e simplesmente perfeita.</p>
-                </div>
-            </div>
-
-            <!-- IMG8: SUBSTITUÍDOS EMOJIS POR ÍCONES SVG FORMAIS E ELEGANTES + TEXTO ESTACIONAMENTO AMPLO E SEGURO -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20 fade-up text-left">
-                <div class="glass-editorial p-9 rounded-3xl border-t-2 border-t-brand-nude relative overflow-hidden group">
-                    <span class="w-12 h-12 rounded-2xl bg-white/[0.04] border border-brand-nude/30 flex items-center justify-center text-brand-nude font-serif text-xl mb-4 font-bold">30+</span>
-                    <div class="font-serif text-3xl text-brand-perola font-normal mb-2">30 Anos de Tradição</div>
-                    <div class="text-sm text-brand-platina font-light leading-relaxed">Realizando eventos inesquecíveis e de altíssimo padrão em Cuiabá e região.</div>
-                </div>
-
-                <div class="glass-editorial p-9 rounded-3xl border-t-2 border-t-brand-nude relative overflow-hidden group">
-                    <div class="w-12 h-12 rounded-2xl bg-white/[0.04] border border-brand-nude/30 flex items-center justify-center text-brand-nude mb-4">
-                        <svg class="w-6 h-6 stroke-current text-brand-nude fill-none" viewBox="0 0 24 24" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 100-18 9 9 0 000 18z"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3"/></svg>
-                    </div>
-                    <div class="font-serif text-3xl text-brand-perola font-normal mb-2">Centenas de Histórias</div>
-                    <div class="text-sm text-brand-platina font-light leading-relaxed">Sonhos de casais transformados em festas memoráveis marcadas pela emoção.</div>
-                </div>
-
-                <div class="glass-editorial p-9 rounded-3xl border-t-2 border-t-brand-nude relative overflow-hidden group">
-                    <div class="w-12 h-12 rounded-2xl bg-white/[0.04] border border-brand-nude/30 flex items-center justify-center text-brand-nude mb-4">
-                        <svg class="w-6 h-6 stroke-current text-brand-nude fill-none" viewBox="0 0 24 24" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456z"/></svg>
-                    </div>
-                    <div class="font-serif text-3xl text-brand-perola font-normal mb-2">Equipe Especializada</div>
-                    <div class="text-sm text-brand-platina font-light leading-relaxed">Profissionais altamente qualificados para cuidar de cada detalhe com excelência.</div>
-                </div>
-
-                <div class="glass-editorial p-9 rounded-3xl border-t-2 border-t-brand-nude relative overflow-hidden group">
-                    <div class="w-12 h-12 rounded-2xl bg-white/[0.04] border border-brand-nude/30 flex items-center justify-center text-brand-nude mb-4">
-                        <svg class="w-6 h-6 stroke-current text-brand-nude fill-none" viewBox="0 0 24 24" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"/></svg>
-                    </div>
-                    <div class="font-serif text-3xl text-brand-perola font-normal mb-2">Atendimento Consultivo</div>
-                    <div class="text-sm text-brand-platina font-light leading-relaxed">Acompanhamento próximo para entender os desejos de cada casal.</div>
-                </div>
-
-                <div class="glass-editorial p-9 rounded-3xl border-t-2 border-t-brand-nude relative overflow-hidden group">
-                    <div class="w-12 h-12 rounded-2xl bg-white/[0.04] border border-brand-nude/30 flex items-center justify-center text-brand-nude mb-4">
-                        <svg class="w-6 h-6 stroke-current text-brand-nude fill-none" viewBox="0 0 24 24" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21"/></svg>
-                    </div>
-                    <div class="font-serif text-3xl text-brand-perola font-normal mb-2">Estrutura Completa</div>
-                    <div class="text-sm text-brand-platina font-light leading-relaxed">Tudo preparado para oferecer supremo conforto, beleza e segurança.</div>
-                </div>
-
-                <!-- IMG8: NOME ALTERADO PARA ESTACIONAMENTO AMPLO E SEGURO + ÍCONE DE SEGURANÇA/CARRO FORMAL -->
-                <div class="glass-editorial p-9 rounded-3xl border-t-2 border-t-brand-nude relative overflow-hidden group">
-                    <div class="w-12 h-12 rounded-2xl bg-white/[0.04] border border-brand-nude/30 flex items-center justify-center text-brand-nude mb-4">
-                        <svg class="w-6 h-6 stroke-current text-brand-nude fill-none" viewBox="0 0 24 24" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751A11.959 11.959 0 0112 2.714z"/></svg>
-                    </div>
-                    <div class="font-serif text-3xl text-brand-perola font-normal mb-2">Estacionamento Amplo e Seguro</div>
-                    <div class="text-sm text-brand-platina font-light leading-relaxed">Comodidade e segurança total para seus convidados durante toda a noite.</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- GALERIA FOTOGRÁFICA -->
-    <section id="galeria-momentos" class="py-24 bg-brand-black border-t border-subtle">
-        <div class="container mx-auto px-6 max-w-6xl">
-            <div class="text-center fade-up mb-16">
-                <!-- IMG9 (VERMELHO): Experiências que falam por si -->
-                <span class="text-xs uppercase tracking-[0.25em] text-brand-nude font-semibold block mb-2">Experiências que falam por si</span>
-                <h2 class="font-serif text-4xl md:text-6xl font-normal text-brand-perola">
-                    Momentos do Grande Dia
-                </h2>
-                <!-- IMG9 (AMARELO): DEIXADO APENAS 'Clique para ver em tela cheia.' -->
-                <p class="text-brand-platina font-light text-sm max-w-xl mx-auto mt-2">Clique para ver em tela cheia.</p>
-            </div>
-
-            <!-- FASE 01: O COMEÇO DA HISTÓRIA -->
-            <div class="mb-16 fade-up">
-                <div class="flex justify-between items-center mb-6 border-b border-subtle pb-4">
-                    <div>
-                        <h3 class="font-serif text-3xl font-normal text-brand-perola">O Começo da História</h3>
-                    </div>
-                    <div class="flex space-x-2">
-                        <button onclick="scrollCarousel('c1', -320)" class="w-10 h-10 rounded-full border border-white/20 text-brand-perola flex items-center justify-center hover:bg-white/10 transition-colors">‹</button>
-                        <button onclick="scrollCarousel('c1', 320)" class="w-10 h-10 rounded-full border border-white/20 text-brand-perola flex items-center justify-center hover:bg-white/10 transition-colors">›</button>
-                    </div>
-                </div>
-
-                <div id="c1" class="flex space-x-6 overflow-x-auto no-scrollbar scroll-smooth pb-4">
-                    <div onclick="openLightbox('assets/img74.jpg', 'Preparação & Recepção')" class="min-w-[280px] md:min-w-[340px] h-80 rounded-3xl overflow-hidden glass-editorial cursor-pointer group relative flex-shrink-0">
-                        <img src="assets/img74.jpg" alt="Preparação & Recepção" class="w-full h-full object-cover cinematic-img">
-                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
-                            <span class="text-xs text-brand-nude uppercase font-semibold">Clique para ampliar</span>
-                            <span class="text-sm text-white font-serif">Preparação & Recepção</span>
-                        </div>
-                    </div>
-                    <div onclick="openLightbox('assets/img75.jpg', 'Bastidores & Ambientação')" class="min-w-[280px] md:min-w-[340px] h-80 rounded-3xl overflow-hidden glass-editorial cursor-pointer group relative flex-shrink-0">
-                        <img src="assets/img75.jpg" alt="Bastidores & Ambientação" class="w-full h-full object-cover cinematic-img">
-                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
-                            <span class="text-xs text-brand-nude uppercase font-semibold">Clique para ampliar</span>
-                            <span class="text-sm text-white font-serif">Bastidores & Ambientação</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- FASE 02: O GRANDE MOMENTO -->
-            <div class="mb-16 fade-up">
-                <div class="flex justify-between items-center mb-6 border-b border-subtle pb-4">
-                    <div>
-                        <h3 class="font-serif text-3xl font-normal text-brand-perola">O Grande Momento</h3>
-                    </div>
-                    <div class="flex space-x-2">
-                        <button onclick="scrollCarousel('c2', -320)" class="w-10 h-10 rounded-full border border-white/20 text-brand-perola flex items-center justify-center hover:bg-white/10 transition-colors">‹</button>
-                        <button onclick="scrollCarousel('c2', 320)" class="w-10 h-10 rounded-full border border-white/20 text-brand-perola flex items-center justify-center hover:bg-white/10 transition-colors">›</button>
-                    </div>
-                </div>
-
-                <div id="c2" class="flex space-x-6 overflow-x-auto no-scrollbar scroll-smooth pb-4">
-                    <div onclick="openLightbox('assets/image21.jpg', 'Cerimônia ao Ar Livre')" class="min-w-[280px] md:min-w-[340px] h-80 rounded-3xl overflow-hidden glass-editorial cursor-pointer group relative flex-shrink-0">
-                        <img src="assets/image21.jpg" alt="Cerimônia ao Ar Livre" class="w-full h-full object-cover cinematic-img">
-                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
-                            <span class="text-xs text-brand-nude uppercase font-semibold">Clique para ampliar</span>
-                            <span class="text-sm text-white font-serif">Cerimônia Espaço Garden</span>
-                        </div>
-                    </div>
-                    <div onclick="openLightbox('assets/img76.jpg', 'Momento Inesquecível no Altar')" class="min-w-[280px] md:min-w-[340px] h-80 rounded-3xl overflow-hidden glass-editorial cursor-pointer group relative flex-shrink-0">
-                        <img src="assets/img76.jpg" alt="Momento Inesquecível no Altar" class="w-full h-full object-cover cinematic-img">
-                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
-                            <span class="text-xs text-brand-nude uppercase font-semibold">Clique para ampliar</span>
-                            <span class="text-sm text-white font-serif">Momento no Altar</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- FASE 03: A CELEBRAÇÃO & GASTRONOMIA REFINADA -->
-            <div class="mb-16 fade-up">
-                <div class="flex justify-between items-center mb-6 border-b border-subtle pb-4">
-                    <div>
-                        <h3 class="font-serif text-3xl font-normal text-brand-perola">A Celebração & Gastronomia Refinada</h3>
-                    </div>
-                    <div class="flex space-x-2">
-                        <button onclick="scrollCarousel('c3', -320)" class="w-10 h-10 rounded-full border border-white/20 text-brand-perola flex items-center justify-center hover:bg-white/10 transition-colors">‹</button>
-                        <button onclick="scrollCarousel('c3', 320)" class="w-10 h-10 rounded-full border border-white/20 text-brand-perola flex items-center justify-center hover:bg-white/10 transition-colors">›</button>
-                    </div>
-                </div>
-
-                <div id="c3" class="flex space-x-6 overflow-x-auto no-scrollbar scroll-smooth pb-4">
-                    <div onclick="openLightbox('assets/image72.png', 'Alta Gastronomia Refinada')" class="min-w-[280px] md:min-w-[340px] h-80 rounded-3xl overflow-hidden glass-editorial cursor-pointer group relative flex-shrink-0">
-                        <img src="assets/image72.png" alt="Alta Gastronomia Refinada" class="w-full h-full object-cover cinematic-img">
-                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
-                            <span class="text-xs text-brand-nude uppercase font-semibold">Clique para ampliar</span>
-                            <span class="text-sm text-white font-serif">Gastronomia de Assinatura</span>
-                        </div>
-                    </div>
-                    <div onclick="openLightbox('assets/image71.jpg', 'Recepção Gastronômica')" class="min-w-[280px] md:min-w-[340px] h-80 rounded-3xl overflow-hidden glass-editorial cursor-pointer group relative flex-shrink-0">
-                        <img src="assets/image71.jpg" alt="Recepção Gastronômica" class="w-full h-full object-cover cinematic-img">
-                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
-                            <span class="text-xs text-brand-nude uppercase font-semibold">Clique para ampliar</span>
-                            <span class="text-sm text-white font-serif">Experiência Gastronômica</span>
-                        </div>
-                    </div>
-                    <div onclick="openLightbox('assets/img73.jpg', 'Mesa Posta & Buffet')" class="min-w-[280px] md:min-w-[340px] h-80 rounded-3xl overflow-hidden glass-editorial cursor-pointer group relative flex-shrink-0">
-                        <img src="assets/img73.jpg" alt="Mesa Posta & Buffet" class="w-full h-full object-cover cinematic-img">
-                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
-                            <span class="text-xs text-brand-nude uppercase font-semibold">Clique para ampliar</span>
-                            <span class="text-sm text-white font-serif">Buffet & Apresentação</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- FASE 04: FESTA, BRINDE & ENCERRAMENTO -->
-            <div class="fade-up">
-                <div class="flex justify-between items-center mb-6 border-b border-subtle pb-4">
-                    <div>
-                        <h3 class="font-serif text-3xl font-normal text-brand-perola">Festa, Brinde & Encerramento</h3>
-                    </div>
-                    <div class="flex space-x-2">
-                        <button onclick="scrollCarousel('c4', -320)" class="w-10 h-10 rounded-full border border-white/20 text-brand-perola flex items-center justify-center hover:bg-white/10 transition-colors">‹</button>
-                        <button onclick="scrollCarousel('c4', 320)" class="w-10 h-10 rounded-full border border-white/20 text-brand-perola flex items-center justify-center hover:bg-white/10 transition-colors">›</button>
-                    </div>
-                </div>
-
-                <div id="c4" class="flex space-x-6 overflow-x-auto no-scrollbar scroll-smooth pb-4">
-                    <div onclick="openLightbox('assets/image34.jpg', 'Pista de Dança')" class="min-w-[280px] md:min-w-[340px] h-80 rounded-3xl overflow-hidden glass-editorial cursor-pointer group relative flex-shrink-0">
-                        <img src="assets/image34.jpg" alt="Pista de Dança" class="w-full h-full object-cover cinematic-img">
-                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
-                            <span class="text-xs text-brand-nude uppercase font-semibold">Clique para ampliar</span>
-                            <span class="text-sm text-white font-serif">Pista de Dança Cênica</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- DEPOIMENTOS E OS 5 PASSOS -->
-    <section class="py-24 bg-brand-dark border-t border-subtle">
-        <div class="container mx-auto px-6 max-w-6xl">
-            <!-- DEPOIMENTOS ORIGINAIS COM REMOÇÃO DE ACENTO DE SONIA (IMG10) -->
-            <div class="text-center fade-up mb-16 max-w-4xl mx-auto">
-                <h2 class="font-serif text-4xl md:text-6xl font-normal text-brand-perola mb-6">
-                    Histórias reais de quem confiou o seu grande dia ao Buffet Sonia Bittencourt.
-                </h2>
-                <div class="text-brand-platina font-light text-sm md:text-base leading-relaxed space-y-3 glass-editorial p-10 rounded-3xl border border-white/15 text-left shadow-2xl">
-                    <p>Um casamento envolve sonhos, expectativas e muita emoção. Por isso, sabemos o tamanho da responsabilidade que recebemos quando um casal escolhe o nosso trabalho.</p>
-                    <p>Cada depoimento representa uma história, uma família e um momento único que tivemos o privilégio de fazer parte.</p>
-                    <p>Mais do que palavras, são lembranças de uma experiência construída com cuidado, dedicação e excelência.</p>
-                </div>
-            </div>
-
-            <!-- CARDS DE DEPOIMENTOS REALISTAS DE NOIVOS E CLIENTES -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12 fade-up text-left">
-                <!-- AVALIAÇÃO 1 -->
-                <div class="glass-editorial p-8 rounded-3xl border border-white/15 flex flex-col justify-between shadow-2xl relative hover:border-brand-nude/40 transition-all">
-                    <div>
-                        <div class="flex items-center space-x-1 text-amber-400 text-lg mb-4">
-                            ★★★★★
-                        </div>
-                        <p class="text-brand-perola font-serif italic text-lg leading-relaxed mb-6">
-                            "Espaço espetacular e uma gastronomia impecável! Equipe extremamente atenciosa do primeiro atendimento até o fim da festa. Nosso casamento foi impecável e os convidados elogiaram cada prato servido. Recomendamos de olhos fechados!"
-                        </p>
-                    </div>
-                    <div class="flex items-center space-x-4 border-t border-subtle pt-4">
-                        <div class="w-11 h-11 rounded-full bg-gradient-to-tr from-brand-nude/40 to-brand-perola/20 border border-brand-nude/40 flex items-center justify-center font-serif text-brand-perola font-semibold text-base">
-                            M
-                        </div>
-                        <div>
-                            <div class="font-serif text-brand-perola text-base font-normal">Mariana & Lucas Ribeiro</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- AVALIAÇÃO 2 -->
-                <div class="glass-editorial p-8 rounded-3xl border border-white/15 flex flex-col justify-between shadow-2xl relative hover:border-brand-nude/40 transition-all">
-                    <div>
-                        <div class="flex items-center space-x-1 text-amber-400 text-lg mb-4">
-                            ★★★★★
-                        </div>
-                        <p class="text-brand-perola font-serif italic text-lg leading-relaxed mb-6">
-                            "A tradição de mais de 30 anos da Sonia Bittencourt faz toda a diferença. Organização impecável, garçons atenciosos e o cardápio maravilhoso. Não tivemos nenhuma dor de cabeça no nosso grande dia!"
-                        </p>
-                    </div>
-                    <div class="flex items-center space-x-4 border-t border-subtle pt-4">
-                        <div class="w-11 h-11 rounded-full bg-gradient-to-tr from-brand-nude/40 to-brand-perola/20 border border-brand-nude/40 flex items-center justify-center font-serif text-brand-perola font-semibold text-base">
-                            F
-                        </div>
-                        <div>
-                            <div class="font-serif text-brand-perola text-base font-normal">Fernanda & Rodrigo Alencastro</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- AVALIAÇÃO 3 -->
-                <div class="glass-editorial p-8 rounded-3xl border border-white/15 flex flex-col justify-between shadow-2xl relative hover:border-brand-nude/40 transition-all">
-                    <div>
-                        <div class="flex items-center space-x-1 text-amber-400 text-lg mb-4">
-                            ★★★★★
-                        </div>
-                        <p class="text-brand-perola font-serif italic text-lg leading-relaxed mb-6">
-                            "Melhor escolha que fiz para o meu casamento! Da recepção no Espaço Garden à sobremesa, tudo foi executado com extrema perfeição. Cerimonial impecável e atendimento dos sonhos."
-                        </p>
-                    </div>
-                    <div class="flex items-center space-x-4 border-t border-subtle pt-4">
-                        <div class="w-11 h-11 rounded-full bg-gradient-to-tr from-brand-nude/40 to-brand-perola/20 border border-brand-nude/40 flex items-center justify-center font-serif text-brand-perola font-semibold text-base">
-                            J
-                        </div>
-                        <div>
-                            <div class="font-serif text-brand-perola text-base font-normal">Juliana & Gabriel Mendonça</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- AVALIAÇÃO 4 -->
-                <div class="glass-editorial p-8 rounded-3xl border border-white/15 flex flex-col justify-between shadow-2xl relative hover:border-brand-nude/40 transition-all">
-                    <div>
-                        <div class="flex items-center space-x-1 text-amber-400 text-lg mb-4">
-                            ★★★★★
-                        </div>
-                        <p class="text-brand-perola font-serif italic text-lg leading-relaxed mb-6">
-                            "Equipe que realmente cuida de todos os detalhes. Estrutura linda, climatização perfeita e comida quentinha e saborosa até o último convidado sair. Nota mil!"
-                        </p>
-                    </div>
-                    <div class="flex items-center space-x-4 border-t border-subtle pt-4">
-                        <div class="w-11 h-11 rounded-full bg-gradient-to-tr from-brand-nude/40 to-brand-perola/20 border border-brand-nude/40 flex items-center justify-center font-serif text-brand-perola font-semibold text-base">
-                            C
-                        </div>
-                        <div>
-                            <div class="font-serif text-brand-perola text-base font-normal">Camila & Henrique Magalhães</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- BOTÃO DIRETO PARA TODAS AS AVALIAÇÕES NO GOOGLE -->
-            <div class="text-center mb-20 fade-up">
-                <a href="https://maps.app.goo.gl/qTqH4wR87krEVtBy8" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-3 px-8 py-3.5 bg-white/[0.05] hover:bg-white/10 border border-brand-nude/40 text-brand-perola rounded-full text-xs font-semibold uppercase tracking-widest transition-all shadow-xl hover:scale-105">
-                    <svg class="w-4 h-4 fill-current text-amber-400" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+        <div class="container mx-auto px-6 max-w-5xl text-center fade-up">
+            <h2 class="font-serif text-4xl md:text-5xl font-normal text-brand-perola mb-6">
+                O que dizem os nossos clientes
+            </h2>
+            <p class="text-brand-platina font-light text-sm max-w-xl mx-auto mb-12">
+                A opinião de quem viveu a experiência Sonia Bittencourt é o nosso maior orgulho.
+            </p>
+            <div class="inline-block">
+                <a href="https://maps.app.goo.gl/qTqH4wR87krEVtBy8" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-3 px-8 py-4 bg-white/[0.05] hover:bg-white/10 border border-brand-nude/40 text-brand-perola rounded-full text-xs md:text-sm font-semibold uppercase tracking-widest transition-all shadow-xl hover:scale-105">
+                    <svg class="w-5 h-5 fill-current text-amber-400" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
                     <span>Ver as mais de 400 avaliações oficiais no Google Meu Negócio</span>
                 </a>
             </div>
-
-            <!-- IMG11: TÍTULO E SUBTÍTULO DOS 5 PASSOS ATUALIZADOS -->
-            <div class="text-center fade-up mb-16 max-w-4xl mx-auto">
-                <h3 class="font-serif text-4xl md:text-5xl font-normal text-brand-perola mb-6">
-                    Planejar o casamento dos seus sonhos pode ser simples e organizado.
-                </h3>
-                <p class="text-brand-platina font-light text-sm md:text-base">
-                    Criamos uma jornada em 5 passos para acompanhar vocês com clareza, transparência e tranquilidade onde terão apoio em cada etapa.
-                </p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-5 gap-6 fade-up">
-                <div class="glass-editorial p-7 rounded-3xl border-l-2 border-l-brand-nude flex flex-col justify-between">
-                    <div>
-                        <span class="font-serif text-4xl text-brand-nude font-normal mb-3 block">01</span>
-                        <h4 class="font-serif text-xl font-normal text-brand-perola mb-2">Primeiro Contato</h4>
-                        <p class="text-brand-platina text-xs font-light leading-relaxed">Entendemos a história de vocês, a estimativa de convidados e o estilo de celebração desejado.</p>
-                    </div>
-                </div>
-                <div class="glass-editorial p-7 rounded-3xl border-l-2 border-l-brand-nude flex flex-col justify-between">
-                    <div>
-                        <span class="font-serif text-4xl text-brand-nude font-normal mb-3 block">02</span>
-                        <h4 class="font-serif text-xl font-normal text-brand-perola mb-2">Personalização</h4>
-                        <p class="text-brand-platina text-xs font-light leading-relaxed">Mapeamos os desejos do casal para desenhar um projeto único de menu e atmosfera.</p>
-                    </div>
-                </div>
-                <div class="glass-editorial p-7 rounded-3xl border-l-2 border-l-brand-nude flex flex-col justify-between">
-                    <div>
-                        <span class="font-serif text-4xl text-brand-nude font-normal mb-3 block">03</span>
-                        <h4 class="font-serif text-xl font-normal text-brand-perola mb-2">Proposta Completa</h4>
-                        <p class="text-brand-platina text-xs font-light leading-relaxed">Apresentamos uma solução integrada com gastronomia, espaço e equipe sob medida.</p>
-                    </div>
-                </div>
-                <div class="glass-editorial p-7 rounded-3xl border-l-2 border-l-brand-nude flex flex-col justify-between">
-                    <div>
-                        <span class="font-serif text-4xl text-brand-nude font-normal mb-3 block">04</span>
-                        <h4 class="font-serif text-xl font-normal text-brand-perola mb-2">Degustação & Alinhamento</h4>
-                        <p class="text-brand-platina text-xs font-light leading-relaxed">Aprovamos o cardápio e os detalhes operacionais em encontros técnicos preparatórios.</p>
-                    </div>
-                </div>
-                <div class="glass-editorial p-7 rounded-3xl border-l-2 border-l-brand-nude flex flex-col justify-between">
-                    <div>
-                        <span class="font-serif text-4xl text-brand-nude font-normal mb-3 block">05</span>
-                        <h4 class="font-serif text-xl font-normal text-brand-perola mb-2">O Grande Dia</h4>
-                        <p class="text-brand-platina text-xs font-light leading-relaxed">Vocês curtem a festa com os convidados enquanto nossa equipe coordena tudo com perfeição.</p>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
-    <!-- DIFERENCIAIS EXCLUSIVOS + COMPROMISSO + FAQ DO CLIENTE -->
-    <section id="faq" class="py-24 relative border-t border-subtle bg-brand-black overflow-hidden">
-        <div class="absolute inset-0 z-0 opacity-20">
-            <img src="assets/image14.png" alt="Fundo Decoração FAQ" class="w-full h-full object-cover cinematic-img">
-            <div class="absolute inset-0 bg-gradient-to-b from-brand-black via-brand-black/90 to-brand-black"></div>
-        </div>
-
-        <div class="container relative z-10 mx-auto px-6 max-w-5xl">
-            <div class="fade-up mb-16 max-w-4xl mx-auto text-center">
-                <h2 class="font-serif text-4xl md:text-6xl font-normal text-brand-perola mb-6">
-                    Por que tantos casais escolhem viver essa experiência com a gente?
-                </h2>
-                <div class="text-brand-platina font-light text-sm md:text-base space-y-3 glass-editorial p-8 rounded-3xl shadow-2xl">
-                    <p>Porque um casamento perfeito não acontece apenas com bons produtos. Ele acontece quando existe experiência, cuidado e uma equipe que entende a importância desse momento.</p>
-                    <p>Há mais de 30 anos, desenvolvemos uma forma de trabalhar baseada em três pilares: Tradição, Segurança e Transparência.</p>
-                </div>
-            </div>
-
-            <!-- LISTA COMPLETA DE DIFERENCIAIS DO LAYOUT ORIGINAL -->
-            <div class="glass-editorial p-10 md:p-14 rounded-3xl text-left fade-up max-w-5xl mx-auto mb-20 border border-white/15 shadow-2xl">
-                <h3 class="font-serif text-4xl font-normal text-brand-perola mb-8 text-center">Diferenciais Exclusivos:</h3>
-                
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-5 text-brand-platina text-sm font-light">
-                    <div class="p-4 bg-white/[0.03] rounded-2xl border border-white/10 flex items-center"><span class="text-brand-nude font-bold text-lg mr-4">✔</span> Especialista em casamentos há mais de 30 anos</div>
-                    <div class="p-4 bg-white/[0.03] rounded-2xl border border-white/10 flex items-center"><span class="text-brand-nude font-bold text-lg mr-4">✔</span> Todos os principais fornecedores em um só lugar</div>
-                    <div class="p-4 bg-white/[0.03] rounded-2xl border border-white/10 flex items-center"><span class="text-brand-nude font-bold text-lg mr-4">✔</span> Atendimento consultivo e personalizado</div>
-                    <div class="p-4 bg-white/[0.03] rounded-2xl border border-white/10 flex items-center"><span class="text-brand-nude font-bold text-lg mr-4">✔</span> Equipe preparada para grandes eventos</div>
-                    <div class="p-4 bg-white/[0.03] rounded-2xl border border-white/10 flex items-center"><span class="text-brand-nude font-bold text-lg mr-4">✔</span> Gastronomia refinada</div>
-                    <div class="p-4 bg-white/[0.03] rounded-2xl border border-white/10 flex items-center"><span class="text-brand-nude font-bold text-lg mr-4">✔</span> Cardápios personalizados</div>
-                    <div class="p-4 bg-white/[0.03] rounded-2xl border border-white/10 flex items-center"><span class="text-brand-nude font-bold text-lg mr-4">✔</span> Estrutura completa</div>
-                    <div class="p-4 bg-white/[0.03] rounded-2xl border border-white/10 flex items-center"><span class="text-brand-nude font-bold text-lg mr-4">✔</span> Estacionamento monitorado para mais de 100 veículos</div>
-                    <div class="p-4 bg-white/[0.03] rounded-2xl border border-white/10 flex items-center"><span class="text-brand-nude font-bold text-lg mr-4">✔</span> Organização antes, durante e depois do evento</div>
-                    <div class="p-4 bg-white/[0.03] rounded-2xl border border-white/10 flex items-center"><span class="text-brand-nude font-bold text-lg mr-4">✔</span> Atendimento em nosso espaço ou em outros locais da região</div>
-                </div>
-            </div>
-
-            <!-- FAQ COMPLETO DO CLIENTE -->
-            <div class="max-w-4xl mx-auto fade-up">
-                <h3 class="font-serif text-4xl font-normal text-brand-perola mb-8 text-center">Tudo o que você precisa saber antes de dar o próximo passo.</h3>
-                
+    <!-- FOOTER GLOBAL -->
+    <footer class="py-16 bg-brand-black border-t border-subtle text-brand-platina text-xs font-light">
+        <div class="container mx-auto px-6 max-w-7xl">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12 text-left">
                 <div class="space-y-4">
-                    <div class="glass-editorial rounded-2xl overflow-hidden shadow-2xl border border-white/15">
-                        <button onclick="toggleFaq('faq1')" class="w-full p-6 text-left font-serif text-xl font-normal text-brand-perola flex justify-between items-center outline-none">
-                            <span>Vocês permitem alterações no cardápio?</span>
-                            <span id="faq1-icon" class="text-brand-nude text-2xl font-sans font-light transition-transform duration-300">+</span>
-                        </button>
-                        <div id="faq1" class="hidden p-6 pt-0 text-brand-platina text-sm font-light leading-relaxed border-t border-subtle">
-                            Sim. Sabemos que cada casamento possui uma identidade própria. Por isso, trabalhamos para que o cardápio esteja alinhado com o estilo do casal e pode receber ajustes dentro do prazo estabelecido antes do evento. Para garantir organização e qualidade, alterações podem ser realizadas até 10 dias antes da celebração.
-                        </div>
+                    <div class="flex items-center space-x-3">
+                        <img src="assets/image1.png" alt="Logo Sonia Bittencourt" class="h-10 w-auto">
+                        <span class="font-serif text-lg text-brand-perola">BUFFET SONIA BITTENCOURT</span>
                     </div>
-
-                    <div class="glass-editorial rounded-2xl overflow-hidden shadow-2xl border border-white/15">
-                        <button onclick="toggleFaq('faq2')" class="w-full p-6 text-left font-serif text-xl font-normal text-brand-perola flex justify-between items-center outline-none">
-                            <span>Vocês trabalham com parcelamento?</span>
-                            <span id="faq2-icon" class="text-brand-nude text-2xl font-sans font-light transition-transform duration-300">+</span>
-                        </button>
-                        <div id="faq2" class="hidden p-6 pt-0 text-brand-platina text-sm font-light leading-relaxed border-t border-subtle">
-                            Sim. Oferecemos condições facilitadas de pagamento para tornar o planejamento mais tranquilo. A única exigência é que o evento esteja totalmente quitado até 20 dias antes da realização.
-                        </div>
-                    </div>
-
-                    <div class="glass-editorial rounded-2xl overflow-hidden shadow-2xl border border-white/15">
-                        <button onclick="toggleFaq('faq3')" class="w-full p-6 text-left font-serif text-xl font-normal text-brand-perola flex justify-between items-center outline-none">
-                            <span>Quantos convidados vocês atendem?</span>
-                            <span id="faq3-icon" class="text-brand-nude text-2xl font-sans font-light transition-transform duration-300">+</span>
-                        </button>
-                        <div id="faq3" class="hidden p-6 pt-0 text-brand-platina text-sm font-light leading-relaxed border-t border-subtle">
-                            Nossa estrutura atende confortavelmente eventos de até 250 convidados sentados, oferecendo ambiente climatizado, organização e uma experiência completa para noivos e convidados.
-                        </div>
-                    </div>
-
-                    <div class="glass-editorial rounded-2xl overflow-hidden shadow-2xl border border-white/15">
-                        <button onclick="toggleFaq('faq4')" class="w-full p-6 text-left font-serif text-xl font-normal text-brand-perola flex justify-between items-center outline-none">
-                            <span>Vocês atendem eventos em outros espaços?</span>
-                            <span id="faq4-icon" class="text-brand-nude text-2xl font-sans font-light transition-transform duration-300">+</span>
-                        </button>
-                        <div id="faq4" class="hidden p-6 pt-0 text-brand-platina text-sm font-light leading-relaxed border-t border-subtle">
-                            Sim. Além da nossa estrutura própria, também levamos nossa experiência gastronômica e equipe técnica para outros locais escolhidos pelos clientes em Cuiabá e região.
-                        </div>
-                    </div>
-
-                    <div class="glass-editorial rounded-2xl overflow-hidden shadow-2xl border border-white/15">
-                        <button onclick="toggleFaq('faq5')" class="w-full p-6 text-left font-serif text-xl font-normal text-brand-perola flex justify-between items-center outline-none">
-                            <span>Posso fazer uma degustação antes de contratar?</span>
-                            <span id="faq5-icon" class="text-brand-nude text-2xl font-sans font-light transition-transform duration-300">+</span>
-                        </button>
-                        <div id="faq5" class="hidden p-6 pt-0 text-brand-platina text-sm font-light leading-relaxed border-t border-subtle">
-                            Sim! Acreditamos que a confiança começa pelo paladar. Proporcionamos uma experiência de degustação mediante agendamento para que vocês conheçam nosso tempero e padrão de apresentação.
-                        </div>
-                    </div>
+                    <p class="leading-relaxed">Tradição, alta gastronomia e sofisticação para os momentos mais importantes da sua vida.</p>
+                </div>
+                <div>
+                    <h4 class="font-serif text-base text-brand-perola mb-4 font-normal uppercase tracking-wider">Nossos Nichos</h4>
+                    <ul class="space-y-2">
+                        <li><a href="casamentos.html" class="hover:text-brand-nude transition-colors">Casamentos de Luxo</a></li>
+                        <li><a href="15-anos.html" class="hover:text-brand-nude transition-colors">Festas de 15 Anos</a></li>
+                        <li><a href="corporativo.html" class="hover:text-brand-nude transition-colors">Eventos Corporativos</a></li>
+                        <li><a href="kids.html" class="hover:text-brand-nude transition-colors">Sonia Bittencourt Kids</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-serif text-base text-brand-perola mb-4 font-normal uppercase tracking-wider">Localização em Cuiabá</h4>
+                    <p class="leading-relaxed">Jardim Itália & Grande Terceiro<br>Cuiabá - MT</p>
+                    <p class="mt-2">Telefone / Whats: (65) 99984-7498</p>
+                </div>
+                <div>
+                    <h4 class="font-serif text-base text-brand-perola mb-4 font-normal uppercase tracking-wider">Atendimento</h4>
+                    <a href="https://wa.me/5565999847498?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20orçamento." target="_blank" class="inline-block px-6 py-3 bg-brand-nude/20 hover:bg-brand-nude text-brand-perola hover:text-brand-black border border-brand-nude/40 rounded-full font-semibold uppercase tracking-wider transition-all">
+                        Solicitar Orçamento
+                    </a>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- VAGAS LIMITADAS E FORMULÁRIO COMPLETO DE ORÇAMENTO DO LAYOUT -->
-    <section id="proposta-form" class="py-24 bg-brand-dark border-t border-subtle">
-        <div class="container mx-auto px-6 max-w-4xl text-center fade-up">
-            
-            <div class="glass-editorial p-12 md:p-16 rounded-3xl border border-brand-perola/25 mb-20 shadow-2xl relative overflow-hidden">
-                <span class="px-5 py-1.5 rounded-full border border-brand-nude/40 text-brand-nude text-xs uppercase tracking-widest font-semibold inline-block mb-6">IMPORTANTE</span>
-                <h2 class="font-serif text-4xl md:text-5xl font-normal text-brand-perola mb-8">
-                    Para manter nosso padrão de excelência, realizamos uma quantidade limitada de eventos por data.
-                </h2>
-                <div class="text-brand-platina font-light text-sm md:text-base leading-relaxed max-w-2xl mx-auto space-y-4 mb-10">
-                    <p>Cada casamento recebe atenção, planejamento e dedicação da nossa equipe.</p>
-                    <p>Por isso, trabalhamos com uma agenda limitada, garantindo que cada casal tenha o cuidado e a qualidade que esse momento merece.</p>
-                    <p>Se vocês já possuem uma data definida, recomendamos consultar nossa disponibilidade com antecedência.</p>
-                </div>
+            <div class="border-t border-subtle pt-8 text-center text-brand-platina/60">
+                <p>&copy; 2026 Buffet Sonia Bittencourt. Todos os direitos reservados. Projeto Desenvolvido com Antigravity.</p>
             </div>
-
-            <!-- FORMULÁRIO DIGITAL -->
-            <div class="glass-editorial p-10 md:p-14 rounded-3xl text-left max-w-2xl mx-auto border border-brand-perola/20 shadow-2xl">
-                <h4 class="font-serif text-3xl md:text-4xl font-normal text-brand-perola mb-2 text-center">Falar com Especialista</h4>
-                <p class="text-xs text-brand-platina text-center mb-8 font-light">Consultoria Direta via WhatsApp</p>
-                
-                <form class="space-y-5">
-                    <div>
-                        <label class="block text-xs uppercase tracking-widest text-brand-platina mb-2 font-light">Nome dos Noivos / Anfitriões</label>
-                        <input type="text" id="iptAnfitrioes" class="w-full bg-white/[0.03] border border-white/10 rounded-xl p-4 text-brand-perola text-sm outline-none focus:border-brand-nude transition-colors" placeholder="Ex: Juliana e Fernando" required>
-                    </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-                        <div>
-                            <label class="block text-xs uppercase tracking-widest text-brand-platina mb-2 font-light">Telefone WhatsApp</label>
-                            <input type="tel" id="iptTelefone" class="w-full bg-white/[0.03] border border-white/10 rounded-xl p-4 text-brand-perola text-sm outline-none focus:border-brand-nude transition-colors" placeholder="(65) 99999-9999" required>
-                        </div>
-                        <div>
-                            <label class="block text-xs uppercase tracking-widest text-brand-platina mb-2 font-light">Data Prevista</label>
-                            <input type="date" id="iptData" class="w-full bg-white/[0.03] border border-white/10 rounded-xl p-4 text-brand-perola text-sm outline-none focus:border-brand-nude transition-colors">
-                        </div>
-                    </div>
-                    <div>
-                        <label class="block text-xs uppercase tracking-widest text-brand-platina mb-2 font-light">Mensagem / Observações</label>
-                        <textarea id="iptObs" rows="3" class="w-full bg-white/[0.03] border border-white/10 rounded-xl p-4 text-brand-perola text-sm outline-none focus:border-brand-nude transition-colors" placeholder="Conte-nos os detalhes do seu evento..."></textarea>
-                    </div>
-                    <button type="button" onclick="sendWhatsAppProp()" class="w-full py-4 bg-brand-perola text-brand-black font-semibold text-xs md:text-sm tracking-widest uppercase rounded-xl hover:bg-brand-nude transition-all shadow-2xl">
-                        Falar com Especialista no WhatsApp
-                    </button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- RODAPÉ DA MARCA COM ÍCONES ORIGINAIS -->
-    <footer class="py-12 bg-brand-black border-t border-subtle text-center">
-        <img src="assets/image55.png" alt="Emblema Sonia Bittencourt" class="h-20 w-auto mx-auto mb-4 object-contain filter drop-shadow-2xl">
-        <h4 class="font-serif text-3xl font-normal text-brand-perola">Buffet Sônia Bittencourt</h4>
-        <p class="text-xs text-brand-platina font-light mt-1">Especialistas em realizar casamentos há mais de 30 anos. Cuiabá - MT</p>
-        <p class="font-serif italic text-brand-nude text-base mt-1">Simplesmente Perfeito.</p>
-
-        <div class="flex justify-center items-center space-x-6 mt-6 pt-6 border-t border-white/5 text-xs text-brand-platina font-light">
-            <a href="https://wa.me/5565999847498" target="_blank" class="hover:text-white flex items-center space-x-2">
-                <img src="assets/image58.png" alt="WhatsApp" class="w-4 h-4 object-contain filter invert">
-                <span>WhatsApp</span>
-            </a>
-            <a href="https://www.instagram.com/buffetsoniabittencourt/" target="_blank" class="hover:text-white flex items-center space-x-2">
-                <img src="assets/image56.png" alt="Instagram" class="w-4 h-4 object-contain filter invert">
-                <span>Instagram</span>
-            </a>
         </div>
     </footer>
 
-    <!-- LIGHTBOX MODAL EM TELA CHEIA PARA FOTOS DA GALERIA -->
-    <div id="lightbox" class="fixed inset-0 z-[100] bg-black/95 backdrop-blur-xl hidden flex items-center justify-center p-6" onclick="closeLightbox()">
-        <button onclick="closeLightbox()" class="absolute top-6 right-6 text-white text-3xl font-light hover:text-brand-nude">✕</button>
-        <div class="max-w-5xl max-h-[90vh] text-center" onclick="event.stopPropagation()">
-            <img id="lightbox-img" src="" alt="" class="max-w-full max-h-[80vh] object-contain rounded-2xl shadow-2xl mx-auto border border-white/10">
-            <p id="lightbox-caption" class="text-brand-perola font-serif text-2xl mt-4 font-light"></p>
-        </div>
-    </div>
-
-    <!-- BOTÃO FLUTUANTE WHATSAPP -->
-    <a href="https://wa.me/5565999847498?text=Olá!%20Acessei%20o%20site%20do%20Buffet%20Sonia%20Bittencourt." target="_blank" class="fixed bottom-6 right-6 bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl z-50 hover:scale-110 transition-transform">
-        <img src="assets/image58.png" alt="WhatsApp Flutuante" class="w-8 h-8 object-contain">
-    </a>
-
-    <!-- SCRIPTS INTERATIVOS -->
+    <!-- SCROLL ANIMATION SCRIPT -->
     <script>
-        function scrollCarousel(id, distance) {
-            document.getElementById(id).scrollBy({ left: distance, behavior: 'smooth' });
-        }
-
-        function openLightbox(src, caption) {
-            document.getElementById('lightbox-img').src = src;
-            document.getElementById('lightbox-caption').innerText = caption;
-            document.getElementById('lightbox').classList.remove('hidden');
-        }
-
-        function closeLightbox() {
-            document.getElementById('lightbox').classList.add('hidden');
-        }
-
-        function toggleFaq(id) {
-            const content = document.getElementById(id);
-            const icon = document.getElementById(id + '-icon');
-            
-            if (content.classList.contains('hidden')) {
-                content.classList.remove('hidden');
-                icon.innerText = '−';
-                icon.style.transform = 'rotate(180deg)';
-            } else {
-                content.classList.add('hidden');
-                icon.innerText = '+';
-                icon.style.transform = 'rotate(0deg)';
-            }
-        }
-
-        function sendWhatsAppProp(){
-            const num = "5565999847498";
-            const anfitrioes = document.getElementById('iptAnfitrioes').value;
-            const telefone = document.getElementById('iptTelefone').value;
-            const data = document.getElementById('iptData').value;
-            const obs = document.getElementById('iptObs').value;
-            
-            if(!anfitrioes || !telefone){ 
-                alert('Por favor, preencha o seu nome e telefone de contato.'); 
-                return; 
-            }
-            
-            let texto = `*SOLICITAÇÃO DE ORÇAMENTO - BUFFET SONIA BITTENCOURT*\n\n`;
-            texto += `*Noivos / Anfitriões:* ${anfitrioes}\n`;
-            texto += `*Telefone:* ${telefone}\n`;
-            texto += `*Data Prevista:* ${data || 'A definir'}\n`;
-            if(obs) texto += `*Mensagem:* ${obs}\n`;
-            texto += `\nGostaria de falar com uma especialista e consultar disponibilidade!`;
-
-            const linkURL = `https://wa.me/${num}?text=${encodeURIComponent(texto)}`;
-            window.open(linkURL, '_blank');
-        }
-
-        function toggleHeroAudio(targetId, btnEl) {
-            const id = targetId || 'heroVideoPlayer';
-            const video = document.getElementById(id);
-            const mutedIcon = document.getElementById('audioMutedIcon');
-            const unmutedIcon = document.getElementById('audioUnmutedIcon');
-            const btnText = document.getElementById('audioBtnText');
-
-            if (video) {
-                if (video.muted) {
-                    video.muted = false;
-                    video.volume = 0.8;
-                    if (mutedIcon) mutedIcon.classList.add('hidden');
-                    if (unmutedIcon) unmutedIcon.classList.remove('hidden');
-                    if (btnText) btnText.innerText = 'Áudio Ativado 🔊';
-                } else {
-                    video.muted = true;
-                    if (mutedIcon) mutedIcon.classList.remove('hidden');
-                    if (unmutedIcon) unmutedIcon.classList.add('hidden');
-                    if (btnText) btnText.innerText = 'Ouvir com Áudio 🔊';
+        const observerOptions = { root: null, rootMargin: '0px', threshold: 0.1 };
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
                 }
-            }
-        }
-
-        document.addEventListener('DOMContentLoaded', () => {
-            const videoPlayer = document.getElementById('heroVideoPlayer');
-            const videosList = ['assets/vid01.mp4', 'assets/vid02.mp4'];
-            let currentVidIdx = 0;
-
-            if (videoPlayer) {
-                videoPlayer.addEventListener('ended', () => {
-                    currentVidIdx = (currentVidIdx + 1) % videosList.length;
-                    videoPlayer.src = videosList[currentVidIdx];
-                    videoPlayer.play();
-                });
-            }
-
-            const fadeElements = document.querySelectorAll('.fade-up');
-            const observer = new IntersectionObserver((entries, obs) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('visible');
-                        obs.unobserve(entry.target);
-                    }
-                });
-            }, { threshold: 0.1 });
-
-            fadeElements.forEach(el => observer.observe(el));
-        });
+            });
+        }, observerOptions);
+        document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
     </script>
 </body>
 </html>
-<!-- Netlify Build Trigger -->

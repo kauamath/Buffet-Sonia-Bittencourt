@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUFFET SONIA BITTENCOURT | Bailes de 15 Anos & Debutantes Inesquecíveis</title>
+    <meta name="description" content="A festa de 15 anos dos sonhos em Cuiabá. Balada moderna, gastronomia jovem refinada, som, iluminação cênica e momentos mágicos para a debutante.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-black': '#050607',
+                        'brand-dark': '#0B0D11',
+                        'brand-card': '#12151B',
+                        'brand-perola': '#F7F4EF',
+                        'brand-nude': '#E2D3C4',
+                        'brand-platina': '#CBD5E1',
+                        'brand-sage': '#3B483B',
+                    },
+                    fontFamily: {
+                        'serif': ['"Cormorant Garamond"', 'serif'],
+                        'sans': ['"Plus Jakarta Sans"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body { background-color: #050607; color: #F7F4EF; overflow-x: hidden; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 16px; }
+        
+        .glass-editorial { 
+            background: linear-gradient(145deg, rgba(18, 21, 27, 0.88), rgba(11, 13, 17, 0.75)); 
+            backdrop-filter: blur(24px); 
+            border: 1px solid rgba(226, 211, 196, 0.15); 
+            box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.8);
+        }
+        .glass-editorial:hover {
+            border-color: rgba(226, 211, 196, 0.4);
+            transform: translateY(-4px);
+            box-shadow: 0 25px 50px -12px rgba(226, 211, 196, 0.15);
+        }
+        .glass-header { 
+            background: rgba(5, 6, 7, 0.95); 
+            backdrop-filter: blur(20px); 
+            border-bottom: 1px solid rgba(247, 244, 239, 0.08); 
+        }
+        .border-subtle { border-color: rgba(247, 244, 239, 0.1); }
+        
+        .fade-up { opacity: 0; transform: translateY(30px); transition: opacity 0.8s ease-out, transform 0.8s ease-out; }
+        .fade-up.visible { opacity: 1; transform: translateY(0); }
+        
+        .cinematic-img { filter: brightness(0.9) contrast(1.05); transition: all 0.6s ease; }
+        .cinematic-img:hover { filter: brightness(1.02) scale(1.04); }
+
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #050607; }
+        ::-webkit-scrollbar-thumb { background: #3B483B; border-radius: 4px; }
+    </style>
+</head>
+<body class="antialiased selection:bg-brand-sage selection:text-white">
+
+    <!-- HEADER ELEGANTE GLOBAL COM NAVEGAÇÃO MULTI-PÁGINAS -->
+    <header class="fixed w-full top-0 z-50 glass-header transition-all duration-300" id="header">
+        <div class="container mx-auto px-6 lg:px-12 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center space-x-4">
+                <img src="assets/image1.png" alt="Logo Buffet Sonia Bittencourt" class="h-12 w-auto object-contain">
+                <div class="hidden sm:flex flex-col">
+                    <span class="font-serif text-xl tracking-wide font-normal text-brand-perola">BUFFET SONIA BITTENCOURT</span>
+                    <span class="text-[10px] tracking-[0.25em] uppercase text-brand-platina font-light">Gastronomia & Eventos Inesquecíveis</span>
+                </div>
+            </a>
+
+            <!-- NAVEGAÇÃO DESKTOP -->
+            <nav class="hidden lg:flex items-center space-x-8 text-xs font-medium uppercase tracking-widest text-brand-platina">
+                <a href="index.html" class="hover:text-brand-nude transition-colors">Início</a>
+                <a href="casamentos.html" class="hover:text-brand-nude transition-colors">Casamentos</a>
+                <a href="15-anos.html" class="text-brand-nude border-b border-brand-nude pb-1 font-semibold">15 Anos</a>
+                <a href="corporativo.html" class="hover:text-brand-nude transition-colors">Corporativo</a>
+                <a href="kids.html" class="hover:text-brand-nude transition-colors">Sonia Kids</a>
+            </nav>
+
+            <div class="flex items-center space-x-4">
+                <a href="https://wa.me/5565999847498?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20orçamento%20para%2015%20Anos." target="_blank" class="hidden sm:inline-flex px-5 py-2.5 bg-brand-nude/20 hover:bg-brand-nude text-brand-perola hover:text-brand-black border border-brand-nude/40 rounded-full text-xs font-semibold uppercase tracking-wider transition-all">
+                    WhatsApp 💬
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO 15 ANOS -->
+    <section class="relative min-h-screen w-full flex items-center pt-36 pb-24 overflow-hidden bg-brand-black">
+        <div class="absolute inset-0 z-0">
+            <img src="assets/image34.jpg" alt="Festa de 15 Anos Buffet Sonia Bittencourt" class="w-full h-full object-cover cinematic-img opacity-45">
+            <div class="absolute inset-0 bg-gradient-to-r from-brand-black via-brand-black/85 to-brand-black/50"></div>
+            <div class="absolute inset-0 bg-gradient-to-b from-brand-black/80 via-transparent to-brand-black"></div>
+        </div>
+
+        <div class="container relative z-10 px-6 lg:px-12 mx-auto max-w-7xl">
+            <div class="max-w-4xl mx-auto text-center space-y-6 fade-up">
+                <span class="text-xs uppercase tracking-[0.3em] text-brand-nude font-medium block">
+                    BAILES DE DEBUTANTES DE ALTO PADRÃO EM CUIABÁ
+                </span>
+
+                <h1 class="font-serif text-4xl sm:text-6xl lg:text-7xl font-normal leading-[1.12] text-brand-perola">
+                    A festa dos 15 anos merece uma noite <i class="italic text-brand-nude font-serif">mágica e espetacular.</i>
+                </h1>
+
+                <p class="text-brand-platina font-light text-base md:text-xl max-w-3xl mx-auto leading-relaxed">
+                    Combinação perfeita entre valsa emocionante, balada com DJ cênico, coquetelaria moderna e gastronomia aprovada por jovens e adultos.
+                </p>
+
+                <div class="pt-6">
+                    <a href="https://wa.me/5565999847498?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20festa%20de%2015%20anos." target="_blank" class="px-10 py-4 bg-brand-perola text-brand-black font-semibold text-xs md:text-sm tracking-widest uppercase rounded-full hover:bg-brand-nude transition-all shadow-2xl inline-block hover:scale-105">
+                        Consultar Datas para 15 Anos ➔
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DESTAQUES 15 ANOS -->
+    <section class="py-24 bg-brand-dark border-t border-subtle">
+        <div class="container mx-auto px-6 max-w-6xl">
+            <div class="text-center fade-up mb-16 max-w-3xl mx-auto">
+                <h2 class="font-serif text-4xl md:text-5xl font-normal text-brand-perola mb-6">
+                    Tudo preparado para a noite da debutante
+                </h2>
+                <p class="text-brand-platina font-light text-sm md:text-base">
+                    Equilíbrio impecável entre a tradição da recepção familiar e a energia jovem da pista de dança.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 fade-up">
+                <div class="glass-editorial p-8 rounded-3xl space-y-4">
+                    <div class="w-12 h-12 rounded-2xl bg-white/[0.04] border border-brand-nude/30 flex items-center justify-center text-brand-nude font-serif text-xl font-bold">01</div>
+                    <h3 class="font-serif text-2xl font-normal text-brand-perola">Balada & Iluminação Cênica</h3>
+                    <p class="text-brand-platina text-xs font-light leading-relaxed">Pista de dança equipada com robôs de luz, efeito de fumaça, estrutura de som profissional e espaço dedicado ao DJ.</p>
+                </div>
+                <div class="glass-editorial p-8 rounded-3xl space-y-4">
+                    <div class="w-12 h-12 rounded-2xl bg-white/[0.04] border border-brand-nude/30 flex items-center justify-center text-brand-nude font-serif text-xl font-bold">02</div>
+                    <h3 class="font-serif text-2xl font-normal text-brand-perola">Menus Teens & Sofisticados</h3>
+                    <p class="text-brand-platina text-xs font-light leading-relaxed">Finger foods modernos, estação de hambúrgueres artesanais e milkshakes para a pista, combinados com um jantar completo para os adultos.</p>
+                </div>
+                <div class="glass-editorial p-8 rounded-3xl space-y-4">
+                    <div class="w-12 h-12 rounded-2xl bg-white/[0.04] border border-brand-nude/30 flex items-center justify-center text-brand-nude font-serif text-xl font-bold">03</div>
+                    <h3 class="font-serif text-2xl font-normal text-brand-perola">Suíte da Debutante VIP</h3>
+                    <p class="text-brand-platina text-xs font-light leading-relaxed">Espaço privado camarim para troca de vestidos, retoque de maquiagem e descansos tranquilos durante a festa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER GLOBAL -->
+    <footer class="py-16 bg-brand-black border-t border-subtle text-brand-platina text-xs font-light">
+        <div class="container mx-auto px-6 max-w-7xl">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12 text-left">
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <img src="assets/image1.png" alt="Logo Sonia Bittencourt" class="h-10 w-auto">
+                        <span class="font-serif text-lg text-brand-perola">BUFFET SONIA BITTENCOURT</span>
+                    </div>
+                    <p class="leading-relaxed">Tradição, alta gastronomia e sofisticação para os momentos mais importantes da sua vida.</p>
+                </div>
+                <div>
+                    <h4 class="font-serif text-base text-brand-perola mb-4 font-normal uppercase tracking-wider">Nossos Nichos</h4>
+                    <ul class="space-y-2">
+                        <li><a href="casamentos.html" class="hover:text-brand-nude transition-colors">Casamentos de Luxo</a></li>
+                        <li><a href="15-anos.html" class="hover:text-brand-nude transition-colors">Festas de 15 Anos</a></li>
+                        <li><a href="corporativo.html" class="hover:text-brand-nude transition-colors">Eventos Corporativos</a></li>
+                        <li><a href="kids.html" class="hover:text-brand-nude transition-colors">Sonia Bittencourt Kids</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-serif text-base text-brand-perola mb-4 font-normal uppercase tracking-wider">Localização em Cuiabá</h4>
+                    <p class="leading-relaxed">Jardim Itália & Grande Terceiro<br>Cuiabá - MT</p>
+                    <p class="mt-2">Telefone / Whats: (65) 99984-7498</p>
+                </div>
+                <div>
+                    <h4 class="font-serif text-base text-brand-perola mb-4 font-normal uppercase tracking-wider">Atendimento</h4>
+                    <a href="https://wa.me/5565999847498?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20orçamento%20para%2015%20Anos." target="_blank" class="inline-block px-6 py-3 bg-brand-nude/20 hover:bg-brand-nude text-brand-perola hover:text-brand-black border border-brand-nude/40 rounded-full font-semibold uppercase tracking-wider transition-all">
+                        Solicitar Orçamento
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-subtle pt-8 text-center text-brand-platina/60">
+                <p>&copy; 2026 Buffet Sonia Bittencourt. Todos os direitos reservados. Projeto Desenvolvido com Antigravity.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCROLL ANIMATION SCRIPT -->
+    <script>
+        const observerOptions = { root: null, rootMargin: '0px', threshold: 0.1 };
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+        document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
