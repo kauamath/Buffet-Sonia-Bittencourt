@@ -103,7 +103,7 @@
     <!-- TELA 1: HERO -->
     <section class="relative min-h-screen w-full flex items-center pt-36 pb-24 overflow-hidden bg-brand-black">
         <div class="absolute inset-0 z-0">
-            <img src="assets/image34.jpg" alt="Festa de 15 Anos Buffet Sonia Bittencourt" class="w-full h-full object-cover cinematic-img opacity-45">
+            <img src="assets/img77.jpg" alt="Festa de 15 Anos Buffet Sonia Bittencourt" class="w-full h-full object-cover cinematic-img opacity-45">
             <div class="absolute inset-0 bg-gradient-to-r from-brand-black via-brand-black/80 to-brand-black/50"></div>
             <div class="absolute inset-0 bg-gradient-to-b from-brand-black/80 via-transparent to-brand-black"></div>
         </div>
@@ -119,6 +119,19 @@
                     <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-normal leading-[1.12] text-brand-perola">
                         A festa de 15 anos da sua filha merece uma noite <i class="italic text-brand-nude font-serif">simplesmente espetacular.</i>
                     </h1>
+
+                    <!-- VÍDEO NO MOBILE -->
+                    <div class="block lg:hidden my-4 w-full h-64 sm:h-80 rounded-3xl overflow-hidden glass-editorial relative border border-brand-nude/30 group shadow-2xl">
+                        <video id="heroVideoPlayerMobile" autoplay loop muted playsinline class="w-full h-full object-cover cinematic-img">
+                            <source src="assets/vid01 Debutante.mp4" type="video/mp4">
+                            Seu navegador não suporta vídeos HTML5.
+                        </video>
+                        <div class="absolute top-4 right-4 z-20">
+                            <button onclick="toggleHeroAudio('heroVideoPlayerMobile', this)" class="flex items-center space-x-2 bg-brand-black/80 hover:bg-brand-black backdrop-blur-md px-3.5 py-1.5 rounded-full border border-brand-nude/40 text-brand-perola transition-all shadow-xl cursor-pointer">
+                                <span class="text-[10px] font-semibold tracking-wider uppercase text-brand-nude">Ouvir com Áudio 🔊</span>
+                            </button>
+                        </div>
+                    </div>
 
                     <div class="glass-editorial p-6 rounded-3xl border-l-4 border-l-brand-nude">
                         <p class="text-brand-perola font-light text-base md:text-lg leading-relaxed">
@@ -137,14 +150,24 @@
                     </div>
                 </div>
 
-                <!-- COLUNA DIREITA: IMAGEM / VÍDEO DESTACADO DESKTOP -->
+                <!-- COLUNA DIREITA: VÍDEO OFICIAL DA DEBUTANTE NO DESKTOP -->
                 <div class="lg:col-span-5 hidden lg:block">
                     <div class="w-full h-80 md:h-[480px] rounded-3xl overflow-hidden glass-editorial relative border border-white/20 group shadow-2xl">
-                        <img src="assets/image34.jpg" alt="Pista de Dança 15 Anos" class="w-full h-full object-cover cinematic-img">
-                        <div class="absolute inset-0 bg-black/30 flex flex-col items-center justify-end p-6">
+                        <video id="heroVideoPlayer" autoplay loop muted playsinline class="w-full h-full object-cover cinematic-img">
+                            <source src="assets/vid01 Debutante.mp4" type="video/mp4">
+                            Seu navegador não suporta vídeos HTML5.
+                        </video>
+                        
+                        <div class="absolute top-4 right-4 z-20">
+                            <button id="toggleAudioBtn" onclick="toggleHeroAudio('heroVideoPlayer', this)" class="flex items-center space-x-2 bg-brand-black/80 hover:bg-brand-black backdrop-blur-md px-3.5 py-1.5 rounded-full border border-brand-nude/40 text-brand-perola transition-all shadow-xl hover:scale-105 cursor-pointer">
+                                <span id="audioBtnText" class="text-[10px] font-semibold tracking-wider uppercase text-brand-nude">Ouvir com Áudio 🔊</span>
+                            </button>
+                        </div>
+
+                        <div class="absolute inset-0 bg-black/25 flex flex-col items-center justify-end p-6 pointer-events-none">
                             <div class="flex items-center space-x-2 bg-brand-black/70 backdrop-blur-md px-4 py-2 rounded-full border border-white/10">
                                 <span class="w-2 h-2 rounded-full bg-pink-500 animate-ping"></span>
-                                <span class="text-[11px] tracking-[0.2em] uppercase font-semibold text-brand-nude">Estrutura & Balada Cênica</span>
+                                <span class="text-[11px] tracking-[0.2em] uppercase font-semibold text-brand-nude">Experiência 15 Anos & Balada</span>
                             </div>
                         </div>
                     </div>
@@ -260,7 +283,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
                     <div class="glass-editorial rounded-3xl overflow-hidden flex flex-col justify-between group">
                         <div class="h-48 overflow-hidden relative">
-                            <img src="assets/image70.jpg" alt="Gastronomia Dual" class="w-full h-full object-cover cinematic-img">
+                            <img src="assets/img78.jpg" alt="Gastronomia Dual 15 Anos" class="w-full h-full object-cover cinematic-img">
                         </div>
                         <div class="p-8">
                             <span class="text-brand-nude text-xs uppercase tracking-widest font-semibold mb-2 block">Gastronomia Dual</span>
@@ -271,7 +294,7 @@
 
                     <div class="glass-editorial rounded-3xl overflow-hidden flex flex-col justify-between group">
                         <div class="h-48 overflow-hidden relative">
-                            <img src="assets/image34.jpg" alt="Pista de Dança Cênica" class="w-full h-full object-cover cinematic-img">
+                            <img src="assets/img82.jpg" alt="Pista de Dança Cênica 15 Anos" class="w-full h-full object-cover cinematic-img">
                         </div>
                         <div class="p-8">
                             <span class="text-brand-nude text-xs uppercase tracking-widest font-semibold mb-2 block">Balada Cênica</span>
@@ -282,7 +305,7 @@
 
                     <div class="glass-editorial rounded-3xl overflow-hidden flex flex-col justify-between group">
                         <div class="h-48 overflow-hidden relative">
-                            <img src="assets/image71.jpg" alt="Estrutura Completa" class="w-full h-full object-cover cinematic-img">
+                            <img src="assets/img83.jpg" alt="Suíte da Debutante" class="w-full h-full object-cover cinematic-img">
                         </div>
                         <div class="p-8">
                             <span class="text-brand-nude text-xs uppercase tracking-widest font-semibold mb-2 block">Estrutura & Camarim VIP</span>
