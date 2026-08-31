@@ -566,6 +566,23 @@
             if (menu) menu.classList.toggle('hidden');
         }
 
+        function toggleHeroAudio(targetId, btnEl) {
+            const id = targetId || 'heroVideoPlayer';
+            const video = document.getElementById(id);
+            const spanText = btnEl ? btnEl.querySelector('span') : document.getElementById('audioBtnText');
+
+            if (video) {
+                if (video.muted) {
+                    video.muted = false;
+                    video.volume = 0.85;
+                    if (spanText) spanText.innerText = 'Áudio Ativado 🔊';
+                } else {
+                    video.muted = true;
+                    if (spanText) spanText.innerText = 'Ouvir com Áudio 🔊';
+                }
+            }
+        }
+
         const observerOptions = { root: null, rootMargin: '0px', threshold: 0.1 };
         const observer = new IntersectionObserver((entries, observer) => {
             entries.forEach(entry => {
