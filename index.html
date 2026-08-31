@@ -96,6 +96,27 @@
                 <a href="https://wa.me/5565999847498?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20orçamento." target="_blank" class="hidden sm:inline-flex px-5 py-2.5 bg-brand-nude/20 hover:bg-brand-nude text-brand-perola hover:text-brand-black border border-brand-nude/40 rounded-full text-xs font-semibold uppercase tracking-wider transition-all">
                     WhatsApp 💬
                 </a>
+
+                <!-- BOTÃO MENU MOBILE -->
+                <button onclick="toggleMobileMenu()" class="lg:hidden text-brand-perola p-2 focus:outline-none" aria-label="Abrir Menu">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- GAVETA MENU MOBILE RESPONSIVO -->
+        <div id="mobileMenu" class="hidden lg:hidden glass-header border-t border-white/10 px-6 py-6 space-y-4 text-xs font-medium uppercase tracking-widest text-brand-platina transition-all">
+            <a href="index.html" class="block py-2 text-brand-nude font-bold">Início (Hub Master)</a>
+            <a href="casamentos.html" class="block py-2 hover:text-brand-nude">Casamentos de Luxo</a>
+            <a href="15-anos.html" class="block py-2 hover:text-brand-nude">15 Anos / Debutantes</a>
+            <a href="corporativo.html" class="block py-2 hover:text-brand-nude">Eventos Corporativos</a>
+            <a href="kids.html" class="block py-2 hover:text-brand-nude">Kids (Buffet Infantil)</a>
+            <div class="pt-4 border-t border-subtle">
+                <a href="https://wa.me/5565999847498?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20orçamento." target="_blank" class="block w-full text-center py-3 bg-brand-nude text-brand-black font-semibold rounded-full uppercase tracking-wider">
+                    Falar no WhatsApp 💬
+                </a>
             </div>
         </div>
     </header>
@@ -468,8 +489,13 @@
         </div>
     </footer>
 
-    <!-- SCROLL ANIMATION SCRIPT -->
+    <!-- SCROLL ANIMATION & MOBILE MENU SCRIPT -->
     <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            if (menu) menu.classList.toggle('hidden');
+        }
+
         const observerOptions = { root: null, rootMargin: '0px', threshold: 0.1 };
         const observer = new IntersectionObserver((entries, observer) => {
             entries.forEach(entry => {
