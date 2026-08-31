@@ -18,13 +18,13 @@
             theme: {
                 extend: {
                     colors: {
-                        'brand-black': '#050607',
-                        'brand-dark': '#0B0D11',
-                        'brand-card': '#12151B',
+                        'brand-black': '#0B1120',
+                        'brand-dark': '#111A30',
+                        'brand-card': '#182442',
                         'brand-perola': '#F7F4EF',
                         'brand-nude': '#E2D3C4',
                         'brand-platina': '#CBD5E1',
-                        'brand-sage': '#3B483B',
+                        'brand-sage': '#24336A',
                     },
                     fontFamily: {
                         'serif': ['"Cormorant Garamond"', 'serif'],
@@ -36,21 +36,21 @@
     </script>
 
     <style>
-        body { background-color: #050607; color: #F7F4EF; overflow-x: hidden; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 16px; }
+        body { background-color: #0B1120; color: #F7F4EF; overflow-x: hidden; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 16px; }
         
         .glass-editorial { 
-            background: linear-gradient(145deg, rgba(18, 21, 27, 0.88), rgba(11, 13, 17, 0.75)); 
+            background: linear-gradient(145deg, rgba(24, 36, 66, 0.88), rgba(17, 26, 48, 0.85)); 
             backdrop-filter: blur(24px); 
-            border: 1px solid rgba(226, 211, 196, 0.15); 
+            border: 1px solid rgba(226, 211, 196, 0.18); 
             box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.8);
         }
         .glass-editorial:hover {
             border-color: rgba(226, 211, 196, 0.4);
             transform: translateY(-4px);
-            box-shadow: 0 25px 50px -12px rgba(226, 211, 196, 0.15);
+            box-shadow: 0 25px 50px -12px rgba(36, 51, 106, 0.3);
         }
         .glass-header { 
-            background: rgba(5, 6, 7, 0.95); 
+            background: rgba(11, 17, 32, 0.95); 
             backdrop-filter: blur(20px); 
             border-bottom: 1px solid rgba(247, 244, 239, 0.08); 
         }
@@ -59,15 +59,15 @@
         .fade-up { opacity: 0; transform: translateY(30px); transition: opacity 0.8s ease-out, transform 0.8s ease-out; }
         .fade-up.visible { opacity: 1; transform: translateY(0); }
         
-        .cinematic-img { filter: brightness(0.9) contrast(1.05); transition: all 0.6s ease; }
+        .cinematic-img { filter: brightness(0.92) contrast(1.05); transition: all 0.6s ease; }
         .cinematic-img:hover { filter: brightness(1.02) scale(1.04); }
 
         .no-scrollbar::-webkit-scrollbar { display: none; }
         .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 
         ::-webkit-scrollbar { width: 8px; }
-        ::-webkit-scrollbar-track { background: #050607; }
-        ::-webkit-scrollbar-thumb { background: #3B483B; border-radius: 4px; }
+        ::-webkit-scrollbar-track { background: #0B1120; }
+        ::-webkit-scrollbar-thumb { background: #24336A; border-radius: 4px; }
     </style>
 </head>
 <body class="antialiased selection:bg-brand-sage selection:text-white">
