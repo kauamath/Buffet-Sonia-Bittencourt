@@ -1048,6 +1048,11 @@
             }
         }
 
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            if (menu) menu.classList.toggle('hidden');
+        }
+
         function sendWhatsAppProp(){
             const num = "5565999847498";
             const anfitrioes = document.getElementById('iptAnfitrioes').value;
